@@ -1,0 +1,1 @@
+/home/aliare/livox_ros2_ws/build/livox_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

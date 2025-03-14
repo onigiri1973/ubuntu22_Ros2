@@ -1,0 +1,76 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam_unstable/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam_unstable",
+			"paths" : 
+			[
+				"/home/aliare/livox_ros2_ws/build/gtsam/gtsam_unstable/dllexport.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"gtsam_unstable/libgtsam_unstable.so.4.3a0",
+				"gtsam_unstable/libgtsam_unstable.so.4"
+			],
+			"targetId" : "gtsam_unstable::@8489efaae693d84216f9",
+			"targetIndex" : 167,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"gtsam_unstable/libgtsam_unstable.so"
+			],
+			"targetId" : "gtsam_unstable::@8489efaae693d84216f9",
+			"targetIndex" : 167,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam_unstable",
+		"source" : "gtsam_unstable"
+	}
+}

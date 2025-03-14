@@ -1,0 +1,15 @@
+Performing C++ SOURCE FILE Test COMPILER_HAS_WMISSING_OVERRIDE failed with the following output:
+Change Dir: /home/aliare/livox_ros2_ws/build/gtsam/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b544a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b544a.dir/build.make CMakeFiles/cmTC_b544a.dir/build
+gmake[1]: Entering directory '/home/aliare/livox_ros2_ws/build/gtsam/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b544a.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_WMISSING_OVERRIDE  -fPIE   -Wmissing -o CMakeFiles/cmTC_b544a.dir/src.cxx.o -c /home/aliare/livox_ros2_ws/build/gtsam/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wmissing'; did you mean '-Waliasing'?
+gmake[1]: *** [CMakeFiles/cmTC_b544a.dir/build.make:78: CMakeFiles/cmTC_b544a.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/aliare/livox_ros2_ws/build/gtsam/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b544a/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

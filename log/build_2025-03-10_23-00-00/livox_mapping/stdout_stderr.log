@@ -1,0 +1,36 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aliare/livox_ros2_ws/build/livox_mapping
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping//launch/livox_mapping.launch.py
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/ament_index/resource_index/package_run_dependencies/livox_mapping
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/ament_index/resource_index/parent_prefix_path/livox_mapping
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/ament_prefix_path.sh
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/path.sh
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/path.dsv
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.bash
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.sh
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.zsh
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.dsv
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.dsv
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/ament_index/resource_index/packages/livox_mapping
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/cmake/livox_mappingConfig.cmake
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/cmake/livox_mappingConfig-version.cmake
+-- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.xml

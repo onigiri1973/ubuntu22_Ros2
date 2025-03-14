@@ -1,0 +1,9 @@
+/home/aliare/livox_ros2_ws/build/livox_mapping/CMakeFiles/uninstall.dir
+/home/aliare/livox_ros2_ws/build/livox_mapping/CMakeFiles/livox_mapping_uninstall.dir
+/home/aliare/livox_ros2_ws/build/livox_mapping/CMakeFiles/test.dir
+/home/aliare/livox_ros2_ws/build/livox_mapping/CMakeFiles/edit_cache.dir
+/home/aliare/livox_ros2_ws/build/livox_mapping/CMakeFiles/rebuild_cache.dir
+/home/aliare/livox_ros2_ws/build/livox_mapping/CMakeFiles/list_install_components.dir
+/home/aliare/livox_ros2_ws/build/livox_mapping/CMakeFiles/install.dir
+/home/aliare/livox_ros2_ws/build/livox_mapping/CMakeFiles/install/local.dir
+/home/aliare/livox_ros2_ws/build/livox_mapping/CMakeFiles/install/strip.dir

@@ -1,0 +1,49 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam_unstable/discrete/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam_unstable/discrete",
+			"paths" : 
+			[
+				"gtsam_unstable/discrete/AllDiff.h",
+				"gtsam_unstable/discrete/BinaryAllDiff.h",
+				"gtsam_unstable/discrete/CSP.h",
+				"gtsam_unstable/discrete/Constraint.h",
+				"gtsam_unstable/discrete/Domain.h",
+				"gtsam_unstable/discrete/Scheduler.h",
+				"gtsam_unstable/discrete/SingleValue.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam_unstable/discrete",
+		"source" : "gtsam_unstable/discrete"
+	}
+}

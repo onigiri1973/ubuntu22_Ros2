@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/sfm/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/sfm",
+			"paths" : 
+			[
+				"gtsam/sfm/BinaryMeasurement.h",
+				"gtsam/sfm/DsfTrackGenerator.h",
+				"gtsam/sfm/MFAS.h",
+				"gtsam/sfm/SfmData.h",
+				"gtsam/sfm/SfmTrack.h",
+				"gtsam/sfm/ShonanAveraging.h",
+				"gtsam/sfm/ShonanFactor.h",
+				"gtsam/sfm/ShonanGaugeFactor.h",
+				"gtsam/sfm/TransferFactor.h",
+				"gtsam/sfm/TranslationFactor.h",
+				"gtsam/sfm/TranslationRecovery.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/sfm",
+		"source" : "gtsam/sfm"
+	}
+}

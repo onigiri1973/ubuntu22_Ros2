@@ -1,0 +1,469 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"gtsamAddTestsGlob_impl",
+			"gtsamAddTestsGlob",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"cmake/GtsamTesting.cmake",
+			"gtsam/geometry/tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 131,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "testBearingRange::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "testCal3Bundler::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "testCal3DFisheye::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "testCal3DS2::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "testCal3Unified::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "testCal3_S2::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "testCal3_S2Stereo::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "testCal3f::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "testCalibratedCamera::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "testCameraSet::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "testCyclic::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "testEssentialMatrix::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "testFundamentalMatrix::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "testLine3::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "testOrientedPlane3::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "testPinholeCamera::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "testPinholePose::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "testPinholeSet::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "testPoint2::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "testPoint3::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "testPose2::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "testPose3::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "testQuaternion::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "testRot2::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "testRot3::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "testRot3M::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "testRot3Q::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "testSO3::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "testSO4::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "testSOn::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "testSerializationGeometry::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "testSimilarity2::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "testSimilarity3::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "testSphericalCamera::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "testStereoCamera::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "testStereoPoint2::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "testTriangulation::@fde57056d8e299817764"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "testUnit3::@fde57056d8e299817764"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Unit tests"
+	},
+	"id" : "check.geometry::@fde57056d8e299817764",
+	"name" : "check.geometry",
+	"paths" : 
+	{
+		"build" : "gtsam/geometry/tests",
+		"source" : "gtsam/geometry/tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/aliare/livox_ros2_ws/build/gtsam/gtsam/geometry/tests/CMakeFiles/check.geometry",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/aliare/livox_ros2_ws/build/gtsam/gtsam/geometry/tests/CMakeFiles/check.geometry.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

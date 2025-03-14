@@ -1,0 +1,78 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/slam/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/slam",
+			"paths" : 
+			[
+				"gtsam/slam/AntiFactor.h",
+				"gtsam/slam/BearingFactor.h",
+				"gtsam/slam/BearingRangeFactor.h",
+				"gtsam/slam/BetweenFactor.h",
+				"gtsam/slam/BoundingConstraint.h",
+				"gtsam/slam/EssentialMatrixConstraint.h",
+				"gtsam/slam/EssentialMatrixFactor.h",
+				"gtsam/slam/FrobeniusFactor.h",
+				"gtsam/slam/GeneralSFMFactor.h",
+				"gtsam/slam/InitializePose.h",
+				"gtsam/slam/InitializePose3.h",
+				"gtsam/slam/JacobianFactorQ.h",
+				"gtsam/slam/JacobianFactorQR.h",
+				"gtsam/slam/JacobianFactorSVD.h",
+				"gtsam/slam/KarcherMeanFactor-inl.h",
+				"gtsam/slam/KarcherMeanFactor.h",
+				"gtsam/slam/OrientedPlane3Factor.h",
+				"gtsam/slam/PlanarProjectionFactor.h",
+				"gtsam/slam/PoseRotationPrior.h",
+				"gtsam/slam/PoseTranslationPrior.h",
+				"gtsam/slam/PriorFactor.h",
+				"gtsam/slam/ProjectionFactor.h",
+				"gtsam/slam/RangeFactor.h",
+				"gtsam/slam/ReferenceFrameFactor.h",
+				"gtsam/slam/RegularImplicitSchurFactor.h",
+				"gtsam/slam/RotateFactor.h",
+				"gtsam/slam/SmartFactorBase.h",
+				"gtsam/slam/SmartFactorParams.h",
+				"gtsam/slam/SmartProjectionFactor.h",
+				"gtsam/slam/SmartProjectionPoseFactor.h",
+				"gtsam/slam/SmartProjectionRigFactor.h",
+				"gtsam/slam/StereoFactor.h",
+				"gtsam/slam/TriangulationFactor.h",
+				"gtsam/slam/dataset.h",
+				"gtsam/slam/expressions.h",
+				"gtsam/slam/lago.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/slam",
+		"source" : "gtsam/slam"
+	}
+}

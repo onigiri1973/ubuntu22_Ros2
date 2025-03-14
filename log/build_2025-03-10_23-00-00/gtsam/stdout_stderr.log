@@ -1,0 +1,1565 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- The C compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- GTSAM_POSE3_EXPMAP=ON, enabling GTSAM_ROT3_EXPMAP as well
+-- Performing Test COMPILER_HAS_WSUGGEST_OVERRIDE
+-- Performing Test COMPILER_HAS_WSUGGEST_OVERRIDE - Success
+-- Performing Test COMPILER_HAS_WMISSING_OVERRIDE
+-- Performing Test COMPILER_HAS_WMISSING_OVERRIDE - Failed
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex 
+-- Found Eigen version: 3.4.0
+-- Looking for execinfo.h
+-- Looking for execinfo.h - found
+-- Looking for getline
+-- Looking for getline - found
+-- checking for thread-local storage - found
+-- Could NOT find MKL (missing: MKL_INCLUDE_DIR MKL_LIBRARIES) 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Building 3rdparty
+-- Could NOT find GeographicLib (missing: GeographicLib_LIBRARY_DIRS GeographicLib_LIBRARIES GeographicLib_INCLUDE_DIRS) 
+-- Building base
+-- Building basis
+-- Building constrained
+-- Building geometry
+-- Building inference
+-- Building symbolic
+-- Building discrete
+-- Building hybrid
+-- Building linear
+-- Building nonlinear
+-- Building sam
+-- Building sfm
+-- Building slam
+-- Building navigation
+-- GTSAM Version: 4.3a0
+-- Install prefix: /home/aliare/livox_ros2_ws/install/gtsam
+-- Building GTSAM - as a SHARED library
+-- Building base_unstable
+-- Building geometry_unstable
+-- Building linear_unstable
+-- Building discrete_unstable
+-- Building dynamics_unstable
+-- Building nonlinear_unstable
+-- Building slam_unstable
+-- Building partition_unstable
+-- GTSAM_UNSTABLE Version: 4.3a0
+-- Install prefix: /home/aliare/livox_ros2_ws/install/gtsam
+-- Wrote /home/aliare/livox_ros2_ws/build/gtsam/GTSAMConfig.cmake
+-- Wrote /home/aliare/livox_ros2_ws/build/gtsam/GTSAM_UNSTABLEConfig.cmake
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- ===============================================================
+-- ================  Configuration Options  ======================
+--  CMAKE_CXX_COMPILER_ID type                       : GNU
+--  CMAKE_CXX_COMPILER_VERSION                       : 11.4.0
+--  CMake version                                    : 3.22.1
+--  CMake generator                                  : Unix Makefiles
+--  CMake build tool                                 : /usr/bin/gmake
+-- Build flags                                               
+--  Build Tests                                      : Enabled
+--  Build examples with 'make all'                   : Enabled
+--  Build timing scripts with 'make all'             : Disabled
+--  Build shared GTSAM libraries                     : Enabled
+--  Put build type in library name                   : Enabled
+--  Build libgtsam_unstable                          : Enabled
+--  Build GTSAM unstable Python                      : Enabled
+--  Build MATLAB Toolbox for unstable                : Disabled
+--  Build for native architecture                    : Disabled
+--  Build type                                       : Release
+--  C compilation flags                              :  -O3 -DNDEBUG
+--  C++ compilation flags                            :  -O3 -DNDEBUG
+--  Enable Boost serialization                       : ON
+--  GTSAM_COMPILE_FEATURES_PUBLIC                    : cxx_std_17
+--  GTSAM_COMPILE_OPTIONS_PUBLIC                     : 
+--  GTSAM_COMPILE_DEFINITIONS_PUBLIC                 : 
+--  GTSAM_COMPILE_OPTIONS_PUBLIC_RELEASE             : 
+--  GTSAM_COMPILE_DEFINITIONS_PUBLIC_RELEASE         : 
+--  Use System Eigen                                 : OFF (Using version: 3.4.0)
+--  Use System Metis                                 : OFF
+--  Using Boost version                              : 1.74.0
+--  Use Intel TBB                                    : Yes (Version: 2021.5.0)
+--  Eigen will use MKL                               : MKL not found
+--  Eigen will use MKL and OpenMP                    : OpenMP found but GTSAM_WITH_EIGEN_MKL is disabled
+--  Default allocator                                : TBB
+--  Cheirality exceptions enabled                    : YES
+--  Build with ccache                                : No
+-- Packaging flags
+--  CPack Source Generator                           : TGZ
+--  CPack Generator                                  : TGZ
+-- GTSAM flags                                               
+--  Quaternions as default Rot3                      : Disabled
+--  Runtime consistency checking                     : Disabled
+--  Build with Memory Sanitizer                      : Disabled
+--  Rot3 retract is full ExpMap                      : Enabled
+--  Pose3 retract is full ExpMap                     : Enabled
+--  Enable branch merging in DecisionTree            : Enabled
+--  Enable timing machinery                          : Disabled
+--  Allow features deprecated in GTSAM 4.3           : Enabled
+--  Metis-based Nested Dissection                    : Enabled
+--  Use tangent-space preintegration                 : Enabled
+-- MATLAB toolbox flags
+--  Install MATLAB toolbox                           : Disabled
+-- Python toolbox flags                                      
+--  Build Python module with pybind                  : Disabled
+-- ===============================================================
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aliare/livox_ros2_ws/build/gtsam
+[  0%] [32mBuilding CXX object CppUnitLite/CMakeFiles/CppUnitLite.dir/Test.cpp.o[0m
+[  0%] [32mBuilding CXX object CppUnitLite/CMakeFiles/CppUnitLite.dir/TestRegistry.cpp.o[0m
+[  0%] [32mBuilding CXX object CppUnitLite/CMakeFiles/CppUnitLite.dir/TestResult.cpp.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/error.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/btdtr.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/blas.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/airy.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/cbrt.c.o[0m
+[  0%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/bdtr.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/csr.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/fkvkselect.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/besselpoly.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/b64.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/evaluate.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/beta.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/chbevl.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/chdtr.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/const.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/dawsn.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/fs.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/dd_real.c.o[0m
+[  2%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/getopt.c.o[0m
+[  4%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/gkregex.c.o[0m
+[  4%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/ellik.c.o[0m
+[  4%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/graph.c.o[0m
+[  4%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/ellie.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/ellpj.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/ellpe.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/htable.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/io.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/ellpk.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/erfinv.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/itemsets.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/exp10.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/mcore.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/omp.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/exp2.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/memory.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/pdb.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/pqueue.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/random.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/rw.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/expn.c.o[0m
+[  7%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/fdtr.c.o[0m
+[  9%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/seq.c.o[0m
+[  9%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/fresnl.c.o[0m
+[  9%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/sort.c.o[0m
+[  9%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/gamma.c.o[0m
+[  9%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/gammasgn.c.o[0m
+[  9%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/string.c.o[0m
+[  9%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/gdtr.c.o[0m
+[  9%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/hyp2f1.c.o[0m
+[  9%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/timers.c.o[0m
+[ 11%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/hyperg.c.o[0m
+[ 14%] [32m[1mLinking CXX static library libCppUnitLite.a[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/tokenizer.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/i0.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/auxapi.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/__/GKlib/util.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/igam.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/i1.c.o[0m
+[ 14%] Built target CppUnitLite
+[ 14%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/igami.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/balance.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/incbet.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/incbi.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/bucketsort.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/checkgraph.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/j0.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/j1.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/coarsen.c.o[0m
+[ 14%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/jv.c.o[0m
+[ 16%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/compress.c.o[0m
+[ 16%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/contig.c.o[0m
+[ 16%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/fm.c.o[0m
+[ 16%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/debug.c.o[0m
+[ 16%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/fortran.c.o[0m
+[ 16%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/frename.c.o[0m
+[ 16%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/k0.c.o[0m
+[ 16%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/gklib.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/k1.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/kn.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/kolmogorov.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/graph.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/initpart.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/lanczos.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/kmetis.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/nbdtr.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/ndtr.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/kwayfm.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/ndtri.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/owens_t.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/pdtr.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/kwayrefine.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/poch.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/psi.c.o[0m
+[ 19%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/rgamma.c.o[0m
+[ 21%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/mcutil.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/round.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/mesh.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/meshpart.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/shichi.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/sf_error.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/sici.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/minconn.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/sindg.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/mincover.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/sinpi.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/spence.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/mmd.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/stdtr.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/ometis.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/options.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/tandg.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/parmetis.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/pmetis.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/refine.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/tukey.c.o[0m
+[ 23%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/unity.c.o[0m
+[ 26%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/yn.c.o[0m
+[ 28%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/separator.c.o[0m
+[ 28%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/yv.c.o[0m
+[ 28%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/sfm.c.o[0m
+[ 28%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/zeta.c.o[0m
+[ 28%] [32mBuilding C object gtsam/3rdparty/cephes/CMakeFiles/cephes-gtsam.dir/cephes/zetac.c.o[0m
+[ 28%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/srefine.c.o[0m
+[ 28%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/stat.c.o[0m
+[ 28%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/timing.c.o[0m
+[ 28%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/wspace.c.o[0m
+[ 28%] [32mBuilding C object gtsam/3rdparty/metis/libmetis/CMakeFiles/metis-gtsam.dir/util.c.o[0m
+[ 28%] [32m[1mLinking C shared library libcephes-gtsam.so[0m
+[ 28%] Built target cephes-gtsam
+[ 28%] [32m[1mLinking C shared library libmetis-gtsam.so[0m
+[ 28%] Built target metis-gtsam
+[ 28%] [32mBuilding C object gtsam/CMakeFiles/gtsam.dir/3rdparty/SuiteSparse_config/SuiteSparse_config.c.o[0m
+[ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/Vector.cpp.o[0m
+[ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/DSFVector.cpp.o[0m
+[ 28%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/VerticalBlockMatrix.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/Matrix.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/types.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/timing.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/utilities.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/cholesky.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/debug.cpp.o[0m
+[ 30%] [32mBuilding C object gtsam/CMakeFiles/gtsam.dir/3rdparty/CCOLAMD/Source/ccolamd.c.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/base/SymmetricBlockMatrix.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev.cpp.o[0m
+[ 30%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/basis/Chebyshev2.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/constrained/InequalityPenaltyFunction.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/basis/Basis.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/constrained/NonlinearEqualityConstraint.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/constrained/NonlinearInequalityConstraint.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Bundler.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3DS2_Base.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Fisheye.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3Unified.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2.cpp.o[0m
+[ 33%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3_S2Stereo.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cal3f.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/CalibratedCamera.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Cyclic.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/EssentialMatrix.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/FundamentalMatrix.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Line3.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/OrientedPlane3.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Point2.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Point3.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Pose2.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Pose3.cpp.o[0m
+[ 35%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot2.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot3.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Rot3M.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SO3.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SO4.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SOn.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Similarity2.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Similarity3.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/SphericalCamera.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/StereoCamera.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/StereoPoint2.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/Unit3.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/geometry/triangulation.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/BayesTree.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/DotWriter.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/EdgeKey.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Factor.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Key.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/LabeledSymbol.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Ordering.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/Symbol.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/VariableIndex.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/VariableSlots.cpp.o[0m
+[ 40%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/inference/inferenceExceptions.cpp.o[0m
+[ 42%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesNet.cpp.o[0m
+[ 42%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicBayesTree.cpp.o[0m
+[ 42%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicConditional.cpp.o[0m
+[ 42%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicEliminationTree.cpp.o[0m
+[ 42%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactor.cpp.o[0m
+[ 42%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicFactorGraph.cpp.o[0m
+[ 42%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicISAM.cpp.o[0m
+[ 42%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/symbolic/SymbolicJunctionTree.cpp.o[0m
+[ 42%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/AlgebraicDecisionTree.cpp.o[0m
+[ 42%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DecisionTreeFactor.cpp.o[0m
+[ 42%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesNet.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteBayesTree.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteConditional.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteDistribution.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteEliminationTree.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactor.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteFactorGraph.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteJunctionTree.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteKey.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteLookupDAG.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteSearch.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/DiscreteValues.cpp.o[0m
+[ 45%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/Signature.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/SignatureParser.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/TableDistribution.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/discrete/TableFactor.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesNet.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridBayesTree.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridConditional.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridEliminationTree.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridFactor.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridFactorGraph.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianConditional.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactor.cpp.o[0m
+[ 47%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianFactorGraph.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianISAM.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridGaussianProductFactor.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridJunctionTree.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactor.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearFactorGraph.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridNonlinearISAM.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridSmoother.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/hybrid/HybridValues.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/ConjugateGradientSolver.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Errors.cpp.o[0m
+[ 50%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesNet.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianBayesTree.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianConditional.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianDensity.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianEliminationTree.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactor.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianFactorGraph.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianISAM.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/GaussianJunctionTree.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/HessianFactor.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/IterativeSolver.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/JacobianFactor.cpp.o[0m
+[ 52%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/KalmanFilter.cpp.o[0m
+[ 54%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/LossFunctions.cpp.o[0m
+[ 54%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/NoiseModel.cpp.o[0m
+[ 54%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/PCGSolver.cpp.o[0m
+[ 54%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Preconditioner.cpp.o[0m
+[ 54%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Sampler.cpp.o[0m
+[ 54%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/Scatter.cpp.o[0m
+[ 54%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphBuilder.cpp.o[0m
+[ 54%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphPreconditioner.cpp.o[0m
+[ 54%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/SubgraphSolver.cpp.o[0m
+[ 54%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/VectorValues.cpp.o[0m
+[ 54%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/iterative.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/linear/linearExceptions.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/BatchFixedLagSmoother.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/CustomFactor.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizer.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/DoglegOptimizerImpl.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/FixedLagSmoother.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/GaussNewtonOptimizer.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/GraphvizFormatting.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2-impl.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Clique.cpp.o[0m
+[ 57%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/ISAM2Params.cpp.o[0m
+[ 59%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtOptimizer.cpp.o[0m
+[ 59%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LevenbergMarquardtParams.cpp.o[0m
+[ 59%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/LinearContainerFactor.cpp.o[0m
+[ 59%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/Marginals.cpp.o[0m
+[ 59%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearConjugateGradientOptimizer.cpp.o[0m
+[ 59%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactor.cpp.o[0m
+[ 59%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearFactorGraph.cpp.o[0m
+[ 59%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearISAM.cpp.o[0m
+[ 59%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizer.cpp.o[0m
+[ 59%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/NonlinearOptimizerParams.cpp.o[0m
+[ 59%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/nonlinear/Values.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/sfm/DsfTrackGenerator.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/sfm/MFAS.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/sfm/SfmData.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/sfm/SfmTrack.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/sfm/ShonanAveraging.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/sfm/ShonanFactor.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/sfm/TranslationRecovery.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/EssentialMatrixConstraint.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/FrobeniusFactor.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/InitializePose3.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/OrientedPlane3Factor.cpp.o[0m
+[ 61%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/dataset.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/slam/lago.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AHRSFactor.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/AttitudeFactor.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/BarometricFactor.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/CombinedImuFactor.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/GPSFactor.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ImuBias.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ImuFactor.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ManifoldPreintegration.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/NavState.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegratedRotation.cpp.o[0m
+[ 64%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationBase.cpp.o[0m
+[ 66%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/PreintegrationParams.cpp.o[0m
+[ 66%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/ScenarioRunner.cpp.o[0m
+[ 66%] [32mBuilding CXX object gtsam/CMakeFiles/gtsam.dir/navigation/TangentPreintegration.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libgtsam.so[0m
+[ 66%] Built target gtsam
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/Hybrid_City10000.dir/Hybrid_City10000.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/CameraResectioning.dir/CameraResectioning.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/DiscreteBayesNet_FG.dir/DiscreteBayesNet_FG.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/CombinedImuFactorsExample.dir/CombinedImuFactorsExample.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/GNCExample.dir/GNCExample.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/CreateSFMExampleData.dir/CreateSFMExampleData.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/DiscreteBayesNetExample.dir/DiscreteBayesNetExample.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/EssentialViewGraphExample.dir/EssentialViewGraphExample.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/FisheyeExample.dir/FisheyeExample.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/HMMExample.dir/HMMExample.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/IMUKittiExampleGPS.dir/IMUKittiExampleGPS.cpp.o[0m
+[ 69%] [32mBuilding CXX object examples/CMakeFiles/ISAM2Example_SmartFactor.dir/ISAM2Example_SmartFactor.cpp.o[0m
+[ 69%] [32mBuilding CXX object examples/CMakeFiles/ISAM2_City10000.dir/ISAM2_City10000.cpp.o[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/InverseKinematicsExampleExpressions.dir/InverseKinematicsExampleExpressions.cpp.o[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/ImuFactorsExample.dir/ImuFactorsExample.cpp.o[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/ImuFactorsExample2.dir/ImuFactorsExample2.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable HMMExample[0m
+[ 71%] [32m[1mLinking CXX executable DiscreteBayesNetExample[0m
+[ 71%] [32m[1mLinking CXX executable DiscreteBayesNet_FG[0m
+[ 71%] Built target HMMExample
+[ 71%] Built target DiscreteBayesNetExample
+[ 71%] Built target DiscreteBayesNet_FG
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/LocalizationExample.dir/LocalizationExample.cpp.o[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/METISOrderingExample.dir/METISOrderingExample.cpp.o[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/OdometryExample.dir/OdometryExample.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable CreateSFMExampleData[0m
+[ 71%] Built target CreateSFMExampleData
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/PlanarSLAMExample.dir/PlanarSLAMExample.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable CameraResectioning[0m
+[ 71%] Built target CameraResectioning
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample.dir/Pose2SLAMExample.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable GNCExample[0m
+[ 71%] Built target GNCExample
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExampleExpressions.dir/Pose2SLAMExampleExpressions.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable Hybrid_City10000[0m
+[ 71%] Built target Hybrid_City10000
+[ 71%] [32m[1mLinking CXX executable ISAM2_City10000[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_g2o.dir/Pose2SLAMExample_g2o.cpp.o[0m
+[ 71%] Built target ISAM2_City10000
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_graph.dir/Pose2SLAMExample_graph.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable EssentialViewGraphExample[0m
+[ 71%] Built target EssentialViewGraphExample
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_graphviz.dir/Pose2SLAMExample_graphviz.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable IMUKittiExampleGPS[0m
+[ 71%] [32m[1mLinking CXX executable FisheyeExample[0m
+[ 71%] Built target IMUKittiExampleGPS
+[ 71%] Built target FisheyeExample
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMExample_lago.dir/Pose2SLAMExample_lago.cpp.o[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMStressTest.dir/Pose2SLAMStressTest.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable ImuFactorsExample2[0m
+[ 71%] Built target ImuFactorsExample2
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose2SLAMwSPCG.dir/Pose2SLAMwSPCG.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable METISOrderingExample[0m
+[ 71%] Built target METISOrderingExample
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose3Localization.dir/Pose3Localization.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable OdometryExample[0m
+[ 71%] [32m[1mLinking CXX executable LocalizationExample[0m
+[ 71%] Built target OdometryExample
+[ 71%] [32m[1mLinking CXX executable CombinedImuFactorsExample[0m
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExampleExpressions_BearingRangeWithTransform.dir/Pose3SLAMExampleExpressions_BearingRangeWithTransform.cpp.o[0m
+[ 71%] Built target LocalizationExample
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_changeKeys.dir/Pose3SLAMExample_changeKeys.cpp.o[0m
+[ 71%] Built target CombinedImuFactorsExample
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_g2o.dir/Pose3SLAMExample_g2o.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable ImuFactorsExample[0m
+[ 71%] Built target ImuFactorsExample
+[ 71%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_initializePose3Chordal.dir/Pose3SLAMExample_initializePose3Chordal.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable Pose2SLAMExample[0m
+[ 73%] Built target Pose2SLAMExample
+[ 73%] [32mBuilding CXX object examples/CMakeFiles/Pose3SLAMExample_initializePose3Gradient.dir/Pose3SLAMExample_initializePose3Gradient.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable Pose2SLAMExample_g2o[0m
+[ 73%] Built target Pose2SLAMExample_g2o
+[ 73%] [32mBuilding CXX object examples/CMakeFiles/RangeISAMExample_plaza2.dir/RangeISAMExample_plaza2.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable Pose2SLAMExample_graphviz[0m
+[ 73%] Built target Pose2SLAMExample_graphviz
+[ 73%] [32mBuilding CXX object examples/CMakeFiles/SFMExample.dir/SFMExample.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable Pose2SLAMExample_lago[0m
+[ 73%] [32m[1mLinking CXX executable Pose2SLAMwSPCG[0m
+[ 73%] [32m[1mLinking CXX executable Pose2SLAMExample_graph[0m
+[ 73%] Built target Pose2SLAMExample_lago
+[ 73%] [32mBuilding CXX object examples/CMakeFiles/SFMExampleExpressions.dir/SFMExampleExpressions.cpp.o[0m
+[ 73%] Built target Pose2SLAMwSPCG
+[ 73%] [32mBuilding CXX object examples/CMakeFiles/SFMExampleExpressions_bal.dir/SFMExampleExpressions_bal.cpp.o[0m
+[ 73%] Built target Pose2SLAMExample_graph
+[ 76%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_SmartFactor.dir/SFMExample_SmartFactor.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable Pose2SLAMStressTest[0m
+[ 78%] Built target Pose2SLAMStressTest
+[ 78%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_SmartFactorPCG.dir/SFMExample_SmartFactorPCG.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable Pose3SLAMExample_changeKeys[0m
+[ 78%] [32m[1mLinking CXX executable Pose3Localization[0m
+[ 78%] [32m[1mLinking CXX executable PlanarSLAMExample[0m
+[ 78%] Built target Pose3SLAMExample_changeKeys
+[ 78%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_bal.dir/SFMExample_bal.cpp.o[0m
+[ 78%] Built target Pose3Localization
+[ 78%] [32mBuilding CXX object examples/CMakeFiles/SFMExample_bal_COLAMD_METIS.dir/SFMExample_bal_COLAMD_METIS.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable Pose3SLAMExample_g2o[0m
+[ 78%] Built target PlanarSLAMExample
+[ 78%] [32mBuilding CXX object examples/CMakeFiles/SelfCalibrationExample.dir/SelfCalibrationExample.cpp.o[0m
+[ 78%] Built target Pose3SLAMExample_g2o
+[ 78%] [32mBuilding CXX object examples/CMakeFiles/ShonanAveragingCLI.dir/ShonanAveragingCLI.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable Pose3SLAMExample_initializePose3Chordal[0m
+[ 80%] Built target Pose3SLAMExample_initializePose3Chordal
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/SimpleRotation.dir/SimpleRotation.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable Pose3SLAMExample_initializePose3Gradient[0m
+[ 83%] Built target Pose3SLAMExample_initializePose3Gradient
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/SolverComparer.dir/SolverComparer.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable SimpleRotation[0m
+[ 83%] Built target SimpleRotation
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/StereoVOExample.dir/StereoVOExample.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable InverseKinematicsExampleExpressions[0m
+[ 83%] Built target InverseKinematicsExampleExpressions
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/StereoVOExample_large.dir/StereoVOExample_large.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable SFMExample[0m
+[ 83%] Built target SFMExample
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/TimeTBB.dir/TimeTBB.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable SelfCalibrationExample[0m
+[ 83%] Built target SelfCalibrationExample
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/TriangulationLOSTExample.dir/TriangulationLOSTExample.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable ShonanAveragingCLI[0m
+[ 83%] Built target ShonanAveragingCLI
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/UGM_chain.dir/UGM_chain.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable SFMExample_bal[0m
+[ 83%] Built target SFMExample_bal
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/UGM_small.dir/UGM_small.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable RangeISAMExample_plaza2[0m
+[ 83%] Built target RangeISAMExample_plaza2
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/ViewGraphExample.dir/ViewGraphExample.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable TimeTBB[0m
+[ 83%] Built target TimeTBB
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/VisualISAM2Example.dir/VisualISAM2Example.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable Pose2SLAMExampleExpressions[0m
+[ 83%] [32m[1mLinking CXX executable SFMExample_bal_COLAMD_METIS[0m
+[ 83%] Built target Pose2SLAMExampleExpressions
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/VisualISAMExample.dir/VisualISAMExample.cpp.o[0m
+[ 83%] Built target SFMExample_bal_COLAMD_METIS
+[ 83%] [32mBuilding CXX object examples/CMakeFiles/easyPoint2KalmanFilter.dir/easyPoint2KalmanFilter.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable UGM_chain[0m
+[ 88%] [32m[1mLinking CXX executable SolverComparer[0m
+[ 88%] Built target UGM_chain
+[ 88%] [32mBuilding CXX object examples/CMakeFiles/elaboratePoint2KalmanFilter.dir/elaboratePoint2KalmanFilter.cpp.o[0m
+[ 88%] Built target SolverComparer
+[ 88%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/base/Dummy.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable StereoVOExample[0m
+[ 88%] [32m[1mLinking CXX executable UGM_small[0m
+[ 88%] Built target StereoVOExample
+[ 88%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/BearingS2.cpp.o[0m
+[ 88%] Built target UGM_small
+[ 88%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Event.cpp.o[0m
+[ 88%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/Pose3Upright.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable ISAM2Example_SmartFactor[0m
+[ 88%] Built target ISAM2Example_SmartFactor
+[ 88%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/SimPolygon2D.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable Pose3SLAMExampleExpressions_BearingRangeWithTransform[0m
+[ 88%] Built target Pose3SLAMExampleExpressions_BearingRangeWithTransform
+[ 88%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/geometry/SimWall2D.cpp.o[0m
+[ 88%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPInitSolver.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable easyPoint2KalmanFilter[0m
+[ 88%] Built target easyPoint2KalmanFilter
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/LPSolver.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable TriangulationLOSTExample[0m
+[ 90%] Built target TriangulationLOSTExample
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSParser.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable StereoVOExample_large[0m
+[ 90%] Built target StereoVOExample_large
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/linear/QPSolver.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable ViewGraphExample[0m
+[ 90%] Built target ViewGraphExample
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/AllDiff.cpp.o[0m
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/CSP.cpp.o[0m
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Domain.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable VisualISAMExample[0m
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/Scheduler.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable elaboratePoint2KalmanFilter[0m
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/discrete/SingleValue.cpp.o[0m
+[ 90%] Built target VisualISAMExample
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/PoseRTV.cpp.o[0m
+[ 90%] Built target elaboratePoint2KalmanFilter
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/dynamics/SimpleHelicopter.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable VisualISAM2Example[0m
+[ 90%] Built target VisualISAM2Example
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchFilter.cpp.o[0m
+[ 90%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentBatchSmoother.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentFilteringAndSmoothing.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalFilter.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/ConcurrentIncrementalSmoother.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/IncrementalFixedLagSmoother.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/nonlinear/LinearizedFactor.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/AHRS.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable SFMExampleExpressions[0m
+[ 92%] Built target SFMExampleExpressions
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/DummyFactor.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/LocalOrientedPlane3Factor.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/Mechanization_bRn2.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/ProjectionFactorRollingShutter.cpp.o[0m
+[ 92%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/RelativeElevationFactor.cpp.o[0m
+[ 95%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionFactorPP.cpp.o[0m
+[ 95%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/slam/SmartStereoProjectionPoseFactor.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable SFMExampleExpressions_bal[0m
+[ 95%] Built target SFMExampleExpressions_bal
+[ 95%] [32mBuilding CXX object gtsam_unstable/CMakeFiles/gtsam_unstable.dir/partition/GenericGraph.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable SFMExample_SmartFactor[0m
+[ 95%] Built target SFMExample_SmartFactor
+[ 95%] [32m[1mLinking CXX executable SFMExample_SmartFactorPCG[0m
+[ 95%] Built target SFMExample_SmartFactorPCG
+[ 95%] [32m[1mLinking CXX shared library libgtsam_unstable.so[0m
+[ 95%] Built target gtsam_unstable
+[ 95%] [32mBuilding CXX object gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals12.dir/schedulingQuals12.cpp.o[0m
+[ 95%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartStereoProjectionFactorExample.dir/SmartStereoProjectionFactorExample.cpp.o[0m
+[ 95%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza1.dir/SmartRangeExample_plaza1.cpp.o[0m
+[ 95%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/TimeOfArrivalExample.dir/TimeOfArrivalExample.cpp.o[0m
+[ 95%] [32mBuilding CXX object gtsam_unstable/discrete/examples/CMakeFiles/schedulingExample.dir/schedulingExample.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/discrete/examples/CMakeFiles/schedulingQuals13.dir/schedulingQuals13.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/ConcurrentCalibration.dir/ConcurrentCalibration.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/ConcurrentFilteringAndSmoothingExample.dir/ConcurrentFilteringAndSmoothingExample.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/FixedLagSmootherExample.dir/FixedLagSmootherExample.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/GncPoseAveragingExample.dir/GncPoseAveragingExample.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/IncrementalFixedLagSmootherExample.dir/IncrementalFixedLagSmootherExample.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.dir/SmartRangeExample_plaza2.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/SmartProjectionFactorExample.dir/SmartProjectionFactorExample.cpp.o[0m
+[ 97%] [32mBuilding CXX object gtsam_unstable/examples/CMakeFiles/ISAM2_SmartFactorStereo_IMU.dir/ISAM2_SmartFactorStereo_IMU.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable schedulingExample[0m
+[ 97%] [32m[1mLinking CXX executable schedulingQuals12[0m
+[ 97%] [32m[1mLinking CXX executable schedulingQuals13[0m
+[ 97%] Built target schedulingExample
+[ 97%] Built target schedulingQuals12
+[ 97%] Built target schedulingQuals13
+[ 97%] [32m[1mLinking CXX executable GncPoseAveragingExample[0m
+[ 97%] Built target GncPoseAveragingExample
+[100%] [32m[1mLinking CXX executable FixedLagSmootherExample[0m
+[100%] [32m[1mLinking CXX executable ConcurrentFilteringAndSmoothingExample[0m
+[100%] Built target FixedLagSmootherExample
+[100%] Built target ConcurrentFilteringAndSmoothingExample
+[100%] [32m[1mLinking CXX executable IncrementalFixedLagSmootherExample[0m
+[100%] [32m[1mLinking CXX executable TimeOfArrivalExample[0m
+[100%] Built target IncrementalFixedLagSmootherExample
+[100%] Built target TimeOfArrivalExample
+[100%] [32m[1mLinking CXX executable SmartRangeExample_plaza1[0m
+[100%] Built target SmartRangeExample_plaza1
+[100%] [32m[1mLinking CXX executable SmartRangeExample_plaza2[0m
+[100%] Built target SmartRangeExample_plaza2
+[100%] [32m[1mLinking CXX executable ConcurrentCalibration[0m
+[100%] Built target ConcurrentCalibration
+[100%] [32m[1mLinking CXX executable ISAM2_SmartFactorStereo_IMU[0m
+[100%] Built target ISAM2_SmartFactorStereo_IMU
+[100%] [32m[1mLinking CXX executable SmartStereoProjectionFactorExample[0m
+[100%] Built target SmartStereoProjectionFactorExample
+[100%] [32m[1mLinking CXX executable SmartProjectionFactorExample[0m
+[100%] Built target SmartProjectionFactorExample
+-- Install configuration: "Release"
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/metis/metis.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/libmetis-gtsam.so
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/cephes/cephes.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/cephes/dd_idefs.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/cephes/dd_real.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/cephes/dd_real_idefs.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/cephes/expn.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/cephes/igam.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/cephes/lanczos.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/cephes/mconf.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/cephes/polevl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/cephes/sf_error.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/cephes/dllexport.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/libcephes-gtsam.so.1.0.0
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/libcephes-gtsam.so.1
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/libcephes-gtsam.so
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/CppUnitLite/Failure.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/CppUnitLite/Test.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/CppUnitLite/TestHarness.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/CppUnitLite/TestRegistry.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/CppUnitLite/TestResult.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/libCppUnitLite.a
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/CCOLAMD/ccolamd.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/SuiteSparse_config/SuiteSparse_config.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/Cholesky
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/CholmodSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/Core
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/Dense
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/Eigen
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/Eigenvalues
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/Geometry
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/Householder
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/IterativeLinearSolvers
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/Jacobi
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/KLUSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/LU
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/MetisSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/OrderingMethods
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/PaStiXSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/PardisoSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/QR
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/QtAlignedMalloc
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/SPQRSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/SVD
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/Sparse
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/SparseCholesky
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/SparseCore
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/SparseLU
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/SparseQR
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/StdDeque
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/StdList
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/StdVector
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/SuperLUSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/UmfPackSupport
+-- Up-to-date: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/CholmodSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/CholmodSupport/CholmodSupport.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Householder
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Householder/BlockHouseholder.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Householder/HouseholderSequence.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Householder/Householder.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/StlSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/StlSupport/StdVector.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/StlSupport/StdDeque.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/StlSupport/details.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/StlSupport/StdList.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_Utils.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_Memory.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLUImpl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_Structs.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_pruneL.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_column_dfs.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_pivotL.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_column_bmod.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_relax_snode.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Jacobi
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Jacobi/Jacobi.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/UmfPackSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/UmfPackSupport/UmfPackSupport.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/QR
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/QR/HouseholderQR_LAPACKE.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/QR/FullPivHouseholderQR.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/QR/HouseholderQR.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/QR/ColPivHouseholderQR.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Cholesky
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LLT.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LLT_LAPACKE.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LDLT.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/Tridiagonalization.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/ComplexSchur.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/RealSchur.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/RealQZ.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/EigenSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Random.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/PlainObjectBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Reshaped.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Dot.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/CwiseUnaryOp.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/GeneralProduct.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/AssignEvaluator.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/CwiseBinaryOp.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Fuzzy.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Inverse.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Transpositions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/BandMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/StlIterators.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/CwiseUnaryView.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/CoreEvaluators.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/SolveTriangular.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Assign_MKL.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/SelfAdjointView.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/MathFunctionsImpl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Matrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Transpose.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/SolverBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularMatrixMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointProduct.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularMatrixVector.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularSolverMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointMatrixVector.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularSolverVector.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixVector.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/Parallelizer.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointRank2Update.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/MatrixBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/SelfCwiseBinaryOp.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Redux.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/EigenBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX512
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX512/PacketMath.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX512/TypeCasting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX512/MathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX512/Complex.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/MSA
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/MSA/PacketMath.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/MSA/MathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/MSA/Complex.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/ZVector
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/ZVector/PacketMath.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/ZVector/MathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/ZVector/Complex.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX/PacketMath.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX/TypeCasting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX/MathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX/Complex.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/Settings.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/BFloat16.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/Half.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/TypeCasting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/ConjHelper.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/CUDA
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/CUDA/Complex.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/PacketMath.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/Complex.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/HIP
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/HIP/hcc
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/HIP/hcc/math_constants.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SVE
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SVE/PacketMath.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SVE/TypeCasting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SVE/MathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/NEON
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/NEON/PacketMath.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/NEON/TypeCasting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/NEON/MathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/NEON/Complex.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SYCL
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SYCL/PacketMath.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SYCL/InteropHeaders.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SYCL/TypeCasting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SYCL/MathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/GPU
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/GPU/PacketMath.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/GPU/TypeCasting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/GPU/MathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SSE
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SSE/PacketMath.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SSE/TypeCasting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SSE/MathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SSE/Complex.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Block.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArithmeticSequence.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/DenseStorage.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/NumTraits.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Diagonal.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Product.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Select.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/TriangularMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/CoreIterators.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/DenseCoeffsBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Stride.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/VectorwiseOp.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Assign.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/VectorBlock.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/NestByValue.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/StableNorm.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/DenseBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ForceAlignedAccess.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/CwiseTernaryOp.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Solve.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/GlobalFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Reverse.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/BooleanRedux.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/CwiseNullaryOp.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Map.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/PartialReduxEvaluator.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/MapBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/CommaInitializer.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/MathFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Array.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Visitor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ReturnByValue.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/NoAlias.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/functors
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/functors/TernaryFunctors.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/functors/UnaryFunctors.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/functors/NullaryFunctors.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/functors/BinaryFunctors.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/functors/StlFunctors.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/functors/AssignmentFunctors.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Ref.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/MKL_support.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/Memory.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/IndexedViewHelper.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/ForwardDeclarations.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/ReshapedHelper.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/Constants.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/NonMPL2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/ConfigureVectorization.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/StaticAssert.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/SymbolicIndex.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/BlasUtil.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/Macros.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/IntegralConstant.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/XprHelper.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/DisableStupidWarnings.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/ReenableStupidWarnings.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/util/Meta.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/IndexedView.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/GenericPacketMath.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayWrapper.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ProductEvaluators.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Swap.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Replicate.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/DiagonalProduct.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/PermutationMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/DiagonalMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/IO.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ConditionEstimator.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SVD
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SVD/BDCSVD.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SVD/SVDBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SVD/JacobiSVD.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SVD/UpperBidiagonalization.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SuperLUSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SuperLUSupport/SuperLUSupport.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCholesky
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCholesky/SimplicialCholesky.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SPQRSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/LU
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/LU/InverseImpl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/LU/arch
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/LU/arch/InverseSize4.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/LU/FullPivLU.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/LU/PartialPivLU_LAPACKE.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/LU/PartialPivLU.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/LU/Determinant.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/KLUSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/KLUSupport/KLUSupport.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/plugins
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/plugins/IndexedViewMethods.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/plugins/ReshapedMethods.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/plugins/CommonCwiseBinaryOps.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/plugins/BlockMethods.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/PaStiXSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/PaStiXSupport/PaStiXSupport.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/Rotation2D.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/OrthoMethods.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/Quaternion.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/ParametrizedLine.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/Translation.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/arch
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/arch/Geometry_SIMD.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/Homogeneous.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/RotationBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/EulerAngles.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/AlignedBox.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/Transform.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/Hyperplane.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/Umeyama.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/AngleAxis.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/Geometry/Scaling.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/misc
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/misc/blas.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/misc/lapacke.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/misc/lapack.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/misc/Kernel.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/misc/RealSvd2x2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/misc/lapacke_mangling.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/misc/Image.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/OrderingMethods
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/OrderingMethods/Amd.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/OrderingMethods/Eigen_Colamd.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/OrderingMethods/Ordering.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseQR
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseQR/SparseQR.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseColEtree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseView.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseDenseProduct.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseTriangularView.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseAssign.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseVector.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseSelfAdjointView.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseMatrixBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseCompressedBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/AmbiVector.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseRef.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseUtil.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseSolverBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseProduct.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/MappedSparseMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseBlock.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseDiagonalProduct.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseRedux.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseDot.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparsePermutation.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/CompressedStorage.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/TriangularSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseTranspose.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseFuzzy.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseMap.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/MetisSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/MetisSupport/MetisSupport.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/PardisoSupport
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/Eigen/Eigen/src/PardisoSupport/PardisoSupport.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/ceres/autodiff.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/ceres/eigen.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/ceres/example.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/ceres/fixed_array.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/ceres/fpclassify.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/ceres/jet.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/ceres/macros.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/ceres/manual_constructor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/ceres/rotation.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/3rdparty/ceres/variadic_evaluate.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/global_includes.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/precompiled_header.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/ConcurrentMap.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/DSFMap.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/DSFVector.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/FastDefaultAllocator.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/FastList.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/FastMap.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/FastSet.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/FastVector.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/GenericValue.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/Group.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/Lie.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/Manifold.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/Matrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/MatrixSerialization.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/OptionalJacobian.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/ProductLieGroup.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/SymmetricBlockMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/Testable.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/TestableAssertions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/ThreadsafeException.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/Value.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/Vector.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/VectorSerialization.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/VectorSpace.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/VerticalBlockMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/WeightedSampler.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/chartTesting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/cholesky.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/concepts.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/debug.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/kruskal-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/kruskal.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/lieProxies.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/make_shared.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/numericalDerivative.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/serialization.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/serializationTestHelpers.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/std_optional_serialization.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/testLie.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/timing.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/treeTraversal-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/types.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/utilities.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/treeTraversal/parallelTraversalTasks.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/base/treeTraversal/statistics.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/basis/Basis.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/basis/BasisFactors.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/basis/Chebyshev.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/basis/Chebyshev2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/basis/FitBasis.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/basis/Fourier.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/constrained/InequalityPenaltyFunction.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/constrained/NonlinearConstraint.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/constrained/NonlinearEqualityConstraint-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/constrained/NonlinearEqualityConstraint.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/constrained/NonlinearInequalityConstraint.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/BearingRange.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Cal3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Cal3Bundler.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Cal3DS2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Cal3DS2_Base.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Cal3Fisheye.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Cal3Unified.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Cal3_S2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Cal3_S2Stereo.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Cal3f.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/CalibratedCamera.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/CameraSet.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Cyclic.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/EssentialMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/FundamentalMatrix.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Line3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/OrientedPlane3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/PinholeCamera.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/PinholePose.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/PinholeSet.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Point2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Point3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Pose2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Pose3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Quaternion.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Rot2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Rot3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/SO3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/SO4.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/SOn-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/SOn.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Similarity2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Similarity3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/SimpleCamera.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/SphericalCamera.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/StereoCamera.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/StereoPoint2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/Unit3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/concepts.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/geometry/triangulation.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/BayesNet-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/BayesNet.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/BayesTree-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/BayesTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/BayesTreeCliqueBase-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/BayesTreeCliqueBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/ClusterTree-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/ClusterTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/Conditional-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/Conditional.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/DotWriter.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/EdgeKey.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/EliminateableFactorGraph-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/EliminateableFactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/EliminationTree-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/EliminationTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/Factor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/FactorGraph-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/FactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/ISAM-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/ISAM.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/JunctionTree-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/JunctionTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/Key.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/LabeledSymbol.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/MetisIndex-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/MetisIndex.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/Ordering.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/Symbol.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/VariableIndex-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/VariableIndex.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/VariableSlots.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/graph-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/graph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/inference-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/inference/inferenceExceptions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/symbolic/SymbolicBayesNet.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/symbolic/SymbolicBayesTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/symbolic/SymbolicConditional.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/symbolic/SymbolicEliminationTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/symbolic/SymbolicFactor-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/symbolic/SymbolicFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/symbolic/SymbolicFactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/symbolic/SymbolicISAM.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/symbolic/SymbolicJunctionTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/AlgebraicDecisionTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/Assignment.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DecisionTree-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DecisionTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DecisionTreeFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteBayesNet.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteBayesTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteConditional.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteDistribution.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteEliminationTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteFactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteJunctionTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteKey.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteLookupDAG.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteMarginals.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteSearch.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/DiscreteValues.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/Ring.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/Signature.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/SignatureParser.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/TableDistribution.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/discrete/TableFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridBayesNet.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridBayesTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridConditional.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridEliminationTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridFactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridGaussianConditional.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridGaussianFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridGaussianFactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridGaussianISAM.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridGaussianProductFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridJunctionTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridNonlinearFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridNonlinearFactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridNonlinearISAM.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridSmoother.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/hybrid/HybridValues.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/AcceleratedPowerMethod.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/BinaryJacobianFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/ConjugateGradientSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/Errors.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/GaussianBayesNet.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/GaussianBayesTree-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/GaussianBayesTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/GaussianConditional-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/GaussianConditional.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/GaussianDensity.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/GaussianEliminationTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/GaussianFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/GaussianFactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/GaussianISAM.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/GaussianJunctionTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/HessianFactor-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/HessianFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/IterativeSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/JacobianFactor-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/JacobianFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/KalmanFilter.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/LossFunctions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/NoiseModel.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/PCGSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/PowerMethod.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/Preconditioner.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/RegularHessianFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/RegularJacobianFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/Sampler.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/Scatter.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/SparseEigen.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/SubgraphBuilder.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/SubgraphPreconditioner.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/SubgraphSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/VectorValues.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/iterative-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/iterative.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/linearAlgorithms-inst.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/linear/linearExceptions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/AdaptAutoDiff.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/BatchFixedLagSmoother.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/CustomFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/DoglegOptimizer.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/DoglegOptimizerImpl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/Expression-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/Expression.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/ExpressionFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/ExpressionFactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/ExtendedKalmanFilter-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/ExtendedKalmanFilter.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/FixedLagSmoother.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/FunctorizedFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/GaussNewtonOptimizer.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/GncOptimizer.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/GncParams.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/GraphvizFormatting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/ISAM2-impl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/ISAM2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/ISAM2Clique.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/ISAM2Params.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/ISAM2Result.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/ISAM2UpdateParams.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/LevenbergMarquardtOptimizer.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/LevenbergMarquardtParams.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/LinearContainerFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/Marginals.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/NonlinearConjugateGradientOptimizer.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/NonlinearEquality.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/NonlinearFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/NonlinearFactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/NonlinearISAM.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/NonlinearOptimizer.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/NonlinearOptimizerParams.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/PriorFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/Symbol.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/Values-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/Values.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/WhiteNoiseFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/expressionTesting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/expressions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/factorTesting.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/nonlinearExceptions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/utilities.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/internal/CallRecord.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/internal/ChiSquaredInverse.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/internal/ExecutionTrace.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/internal/ExpressionNode.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/internal/JacobianMap.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/internal/LevenbergMarquardtState.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/nonlinear/internal/NonlinearOptimizerState.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sam/BearingFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sam/BearingRangeFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sam/RangeFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sfm/BinaryMeasurement.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sfm/DsfTrackGenerator.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sfm/MFAS.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sfm/SfmData.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sfm/SfmTrack.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sfm/ShonanAveraging.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sfm/ShonanFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sfm/ShonanGaugeFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sfm/TransferFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sfm/TranslationFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/sfm/TranslationRecovery.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/AntiFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/BearingFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/BearingRangeFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/BetweenFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/BoundingConstraint.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/EssentialMatrixConstraint.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/EssentialMatrixFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/FrobeniusFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/GeneralSFMFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/InitializePose.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/InitializePose3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/JacobianFactorQ.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/JacobianFactorQR.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/JacobianFactorSVD.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/KarcherMeanFactor-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/KarcherMeanFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/OrientedPlane3Factor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/PlanarProjectionFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/PoseRotationPrior.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/PoseTranslationPrior.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/PriorFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/ProjectionFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/RangeFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/ReferenceFrameFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/RegularImplicitSchurFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/RotateFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/SmartFactorBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/SmartFactorParams.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/SmartProjectionFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/SmartProjectionPoseFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/SmartProjectionRigFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/StereoFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/TriangulationFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/dataset.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/expressions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/slam/lago.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/AHRSFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/AttitudeFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/BarometricFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/CombinedImuFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/ConstantVelocityFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/GPSFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/ImuBias.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/ImuFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/MagFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/MagPoseFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/ManifoldPreintegration.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/NavState.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/PreintegratedRotation.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/PreintegrationBase.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/PreintegrationCombinedParams.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/PreintegrationParams.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/Scenario.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/ScenarioRunner.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/TangentPreintegration.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/navigation/expressions.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/config.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam/dllexport.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/libgtsam.so.4.3a0
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/libgtsam.so.4
+-- Set runtime path of "/home/aliare/livox_ros2_ws/install/gtsam/lib/libgtsam.so.4.3a0" to ""
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/libgtsam.so
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/base/BTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/base/DSF.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/base/Dummy.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/base/FixedVector.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/geometry/BearingS2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/geometry/Event.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/geometry/InvDepthCamera3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/geometry/Pose3Upright.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/geometry/SimPolygon2D.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/geometry/SimWall2D.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/ActiveSetSolver-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/ActiveSetSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/EqualityFactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/InequalityFactorGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/InfeasibleInitialValues.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/InfeasibleOrUnboundedProblem.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/LP.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/LPInitSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/LPSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/LinearCost.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/LinearEquality.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/LinearInequality.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/QP.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/QPInitSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/QPSParser.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/QPSParserException.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/linear/QPSolver.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/discrete/AllDiff.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/discrete/BinaryAllDiff.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/discrete/CSP.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/discrete/Constraint.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/discrete/Domain.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/discrete/Scheduler.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/discrete/SingleValue.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/dynamics/DynamicsPriors.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/dynamics/FullIMUFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/dynamics/IMUFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/dynamics/Pendulum.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/dynamics/PoseRTV.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/dynamics/SimpleHelicopter.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/dynamics/VelocityConstraint.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/dynamics/VelocityConstraint3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/nonlinear/BatchFixedLagSmoother.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/nonlinear/BayesTreeMarginalizationHelper.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/nonlinear/ConcurrentBatchFilter.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/nonlinear/ConcurrentBatchSmoother.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/nonlinear/ConcurrentFilteringAndSmoothing.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/nonlinear/ConcurrentIncrementalFilter.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/nonlinear/ConcurrentIncrementalSmoother.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/nonlinear/FixedLagSmoother.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/nonlinear/LinearizedFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/nonlinear/NonlinearClusterTree.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/AHRS.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/BetweenFactorEM.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/BiasedGPSFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/DummyFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/EquivInertialNavFactor_GlobalVel.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/EquivInertialNavFactor_GlobalVel_NoBias.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/GaussMarkov1stOrderFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/InertialNavFactor_GlobalVelocity.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/InvDepthFactor3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/InvDepthFactorVariant1.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/InvDepthFactorVariant2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/InvDepthFactorVariant3.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/LocalOrientedPlane3Factor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/Mechanization_bRn2.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/MultiProjectionFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/PartialPriorFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/PoseBetweenFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/PosePriorFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/PoseToPointFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/ProjectionFactorPPP.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/ProjectionFactorPPPC.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/ProjectionFactorRollingShutter.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/RelativeElevationFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/SmartProjectionPoseFactorRollingShutter.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/SmartRangeFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/SmartStereoProjectionFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/SmartStereoProjectionFactorPP.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/SmartStereoProjectionPoseFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/TOAFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/TSAMFactors.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/TransformBtwRobotsUnaryFactor.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/slam/TransformBtwRobotsUnaryFactorEM.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/partition/FindSeparator-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/partition/FindSeparator.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/partition/GenericGraph.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/partition/NestedDissection-inl.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/partition/NestedDissection.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/partition/PartitionWorkSpace.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/include/gtsam_unstable/dllexport.h
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/libgtsam_unstable.so.4.3a0
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/libgtsam_unstable.so.4
+-- Set runtime path of "/home/aliare/livox_ros2_ws/install/gtsam/lib/libgtsam_unstable.so.4.3a0" to ""
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/libgtsam_unstable.so
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAM/gtsam_extra.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAM/GTSAMConfig.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAM/GTSAMConfigVersion.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAM/GTSAM-exports.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAM/GTSAM-exports-release.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAM_UNSTABLE/gtsam_extra.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAM_UNSTABLE/GTSAM_UNSTABLEConfig.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAM_UNSTABLE/GTSAM_UNSTABLEConfigVersion.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAM_UNSTABLE/GTSAM_UNSTABLE-exports.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAM_UNSTABLE/GTSAM_UNSTABLE-exports-release.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAMCMakeTools/GTSAMCMakeToolsConfig.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAMCMakeTools/Config.cmake.in
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAMCMakeTools/dllexport.h.in
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAMCMakeTools/GtsamBuildTypes.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAMCMakeTools/GtsamMakeConfigFile.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAMCMakeTools/GtsamTesting.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAMCMakeTools/GtsamPrinting.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAMCMakeTools/FindNumPy.cmake
+-- Installing: /home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAMCMakeTools/README.html

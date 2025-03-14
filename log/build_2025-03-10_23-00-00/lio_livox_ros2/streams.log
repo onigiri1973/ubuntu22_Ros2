@@ -1,0 +1,176 @@
+[0.010s] Invoking command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/lio_livox_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/lio_livox_ros2
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.078s] -- The CXX compiler identification is GNU 11.4.0
+[0.082s] -- Detecting C compiler ABI info
+[0.124s] -- Detecting C compiler ABI info - done
+[0.129s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.129s] -- Detecting C compile features
+[0.129s] -- Detecting C compile features - done
+[0.131s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.185s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.280s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.321s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.332s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.354s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.356s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.361s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.401s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.401s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.450s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.467s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.492s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.496s] -- Looking for pthread.h
+[0.540s] -- Looking for pthread.h - found
+[0.541s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.584s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.584s] -- Found Threads: TRUE  
+[0.615s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.634s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.645s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.713s] -- Checking for module 'eigen3'
+[0.720s] --   Found eigen3, version 3.4.0
+[0.737s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.737s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.747s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.756s] -- Checking for module 'flann'
+[0.763s] --   Found flann, version 1.9.1
+[0.785s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.785s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.807s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.811s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.892s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.892s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.894s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.899s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.909s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.916s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.962s] -- Found X11: /usr/include   
+[0.963s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.005s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.005s] -- Looking for gethostbyname
+[1.048s] -- Looking for gethostbyname - found
+[1.048s] -- Looking for connect
+[1.091s] -- Looking for connect - found
+[1.091s] -- Looking for remove
+[1.132s] -- Looking for remove - found
+[1.132s] -- Looking for shmat
+[1.174s] -- Looking for shmat - found
+[1.174s] -- Looking for IceConnectionNumber in ICE
+[1.216s] -- Looking for IceConnectionNumber in ICE - found
+[1.259s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.260s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.261s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.262s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.270s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.273s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.275s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.278s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.332s] -- Checking for module 'libusb-1.0'
+[1.342s] --   Found libusb-1.0, version 1.0.25
+[1.365s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.365s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.365s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.402s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.402s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.402s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.498s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.502s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.506s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.612s] -- Found Qhull version 8.0.2
+[1.760s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.896s] -- looking for PCL_COMMON
+[1.896s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.896s] -- looking for PCL_KDTREE
+[1.897s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.897s] -- looking for PCL_OCTREE
+[1.898s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.898s] -- looking for PCL_SEARCH
+[1.898s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.898s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.899s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.899s] -- looking for PCL_FILTERS
+[1.900s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.900s] -- looking for PCL_2D
+[1.900s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.900s] -- looking for PCL_GEOMETRY
+[1.900s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.900s] -- looking for PCL_IO
+[1.901s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.901s] -- looking for PCL_FEATURES
+[1.902s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.902s] -- looking for PCL_ML
+[1.902s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.903s] -- looking for PCL_SEGMENTATION
+[1.903s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.903s] -- looking for PCL_VISUALIZATION
+[1.904s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.904s] -- looking for PCL_SURFACE
+[1.904s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.905s] -- looking for PCL_REGISTRATION
+[1.905s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.905s] -- looking for PCL_KEYPOINTS
+[1.906s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.906s] -- looking for PCL_TRACKING
+[1.907s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.907s] -- looking for PCL_RECOGNITION
+[1.907s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.907s] -- looking for PCL_STEREO
+[1.908s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.908s] -- looking for PCL_APPS
+[1.909s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.909s] -- looking for PCL_IN_HAND_SCANNER
+[1.909s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.909s] -- looking for PCL_MODELER
+[1.910s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.910s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.910s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.910s] -- looking for PCL_OUTOFCORE
+[1.911s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.911s] -- looking for PCL_PEOPLE
+[1.911s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.912s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[1.913s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.939s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex 
+[1.941s] -- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+[1.996s] -- Configuring done
+[2.029s] -- Generating done
+[2.038s] -- Build files have been written to: /home/aliare/livox_ros2_ws/build/lio_livox_ros2
+[2.050s] Invoked command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/lio_livox_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/lio_livox_ros2
+[2.051s] Invoking command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/lio_livox_ros2 -- -j16 -l16
+[2.084s] [ 25%] [32mBuilding CXX object CMakeFiles/pose_estimation.dir/src/pose_estimation.cpp.o[0m
+[2.084s] [ 50%] [32mBuilding CXX object CMakeFiles/scan_registration.dir/src/scan_registration.cpp.o[0m
+[18.420s] [ 75%] [32m[1mLinking CXX executable scan_registration[0m
+[19.961s] [ 75%] Built target scan_registration
+[50.790s] [100%] [32m[1mLinking CXX executable pose_estimation[0m
+[53.674s] [100%] Built target pose_estimation
+[53.710s] Invoked command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/lio_livox_ros2 -- -j16 -l16
+[53.712s] Invoking command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/lio_livox_ros2
+[53.737s] -- Install configuration: ""
+[53.738s] -- Execute custom install script
+[53.741s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/lib/lio_livox_ros2/scan_registration
+[53.761s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/lib/lio_livox_ros2/pose_estimation
+[53.788s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/include/lio_livox_ros2/lio_livox_ros2/PoseEstimation.cpp
+[53.816s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/include/lio_livox_ros2/lio_livox_ros2/signalHandler
+[53.843s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/launch/lio_livox.launch.py
+[53.873s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/ament_index/resource_index/package_run_dependencies/lio_livox_ros2
+[53.899s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/ament_index/resource_index/parent_prefix_path/lio_livox_ros2
+[53.926s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/environment/ament_prefix_path.sh
+[53.952s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/environment/ament_prefix_path.dsv
+[53.979s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/environment/path.sh
+[54.004s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/environment/path.dsv
+[54.031s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/local_setup.bash
+[54.056s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/local_setup.sh
+[54.078s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/local_setup.zsh
+[54.102s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/local_setup.dsv
+[54.126s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.dsv
+[54.153s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/ament_index/resource_index/packages/lio_livox_ros2
+[54.177s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/cmake/lio_livox_ros2Config.cmake
+[54.201s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/cmake/lio_livox_ros2Config-version.cmake
+[54.224s] -- Symlinking: /home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.xml
+[54.261s] Invoked command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/lio_livox_ros2

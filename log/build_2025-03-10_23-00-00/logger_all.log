@@ -1,0 +1,518 @@
+[0.073s] DEBUG:colcon:Command line arguments: ['/home/aliare/.local/bin/colcon', 'build', '--symlink-install']
+[0.073s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76e8e51b5810>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76e8e54f6e00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76e8e54f6e00>>)
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.152s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aliare/livox_ros2_ws'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gtsam' with type 'ros.cmake' and name 'gtsam'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lio_livox_ros2' with type 'ros.ament_cmake' and name 'lio_livox_ros2'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_mapping' with type 'ros.ament_cmake' and name 'livox_mapping'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros2_driver/livox_interfaces' with type 'ros.ament_cmake' and name 'livox_interfaces'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros2_driver/livox_ros2_driver' with type 'ros.ament_cmake' and name 'livox_ros2_driver'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros2_driver/livox_sdk_vendor' with type 'ros.ament_cmake' and name 'livox_sdk_vendor'
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'gtsam' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'gtsam' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'gtsam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'gtsam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'gtsam' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'gtsam' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'gtsam' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'gtsam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'gtsam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'gtsam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aliare/livox_ros2_ws/build/gtsam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aliare/livox_ros2_ws/install/gtsam', 'merge_install': False, 'path': '/home/aliare/livox_ros2_ws/src/gtsam', 'symlink_install': True, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'lio_livox_ros2' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'lio_livox_ros2' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'lio_livox_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'lio_livox_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'lio_livox_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'lio_livox_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'lio_livox_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'lio_livox_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'lio_livox_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'lio_livox_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aliare/livox_ros2_ws/build/lio_livox_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aliare/livox_ros2_ws/install/lio_livox_ros2', 'merge_install': False, 'path': '/home/aliare/livox_ros2_ws/src/lio_livox_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'livox_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aliare/livox_ros2_ws/build/livox_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aliare/livox_ros2_ws/install/livox_interfaces', 'merge_install': False, 'path': '/home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'livox_sdk_vendor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aliare/livox_ros2_ws/build/livox_sdk_vendor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor', 'merge_install': False, 'path': '/home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_sdk_vendor', 'symlink_install': True, 'test_result_base': None}
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_mapping' build argument 'cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_mapping' build argument 'cmake_target' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] DEBUG:colcon.colcon_core.verb:Building package 'livox_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aliare/livox_ros2_ws/build/livox_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aliare/livox_ros2_ws/install/livox_mapping', 'merge_install': False, 'path': '/home/aliare/livox_ros2_ws/src/livox_mapping', 'symlink_install': True, 'test_result_base': None}
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aliare/livox_ros2_ws/build/livox_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aliare/livox_ros2_ws/install/livox_ros2_driver', 'merge_install': False, 'path': '/home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[0.180s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.181s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aliare/livox_ros2_ws/src/lio_livox_ros2' with build type 'ament_cmake'
+[0.181s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aliare/livox_ros2_ws/src/lio_livox_ros2'
+[0.182s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.185s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_interfaces' with build type 'ament_cmake'
+[0.185s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_interfaces'
+[0.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.186s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_sdk_vendor' with build type 'ament_cmake'
+[0.186s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_sdk_vendor'
+[0.186s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.186s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.188s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/aliare/livox_ros2_ws/src/gtsam' with build type 'cmake'
+[0.188s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aliare/livox_ros2_ws/src/gtsam'
+[0.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/lio_livox_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/lio_livox_ros2
+[0.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_interfaces
+[0.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_sdk_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor
+[0.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/gtsam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/gtsam -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/gtsam
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_sdk_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_sdk_vendor -- -j16 -l16
+[1.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_interfaces
+[1.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_interfaces -- -j16 -l16
+[2.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/gtsam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/gtsam -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/gtsam
+[2.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/gtsam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/gtsam -- -j16 -l16
+[2.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/lio_livox_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/lio_livox_ros2
+[2.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/lio_livox_ros2 -- -j16 -l16
+[3.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_interfaces -- -j16 -l16
+[3.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_interfaces
+[4.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_interfaces)
+[4.413s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces' for CMake module files
+[4.413s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces' for CMake config files
+[4.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_interfaces', 'cmake_prefix_path')
+[4.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.ps1'
+[4.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.dsv'
+[4.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.sh'
+[4.422s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces/lib'
+[4.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_interfaces', 'ld_library_path_lib')
+[4.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.ps1'
+[4.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.dsv'
+[4.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_interfaces
+[4.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.sh'
+[4.429s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces/bin'
+[4.429s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/pkgconfig/livox_interfaces.pc'
+[4.431s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/python3.10/site-packages'
+[4.431s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces/bin'
+[4.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.ps1'
+[4.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.dsv'
+[4.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.sh'
+[4.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.bash'
+[4.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.zsh'
+[4.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/livox_interfaces/share/colcon-core/packages/livox_interfaces)
+[4.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_interfaces)
+[4.444s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces' for CMake module files
+[4.445s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces' for CMake config files
+[4.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_interfaces', 'cmake_prefix_path')
+[4.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.ps1'
+[4.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.dsv'
+[4.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.sh'
+[4.447s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces/lib'
+[4.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_interfaces', 'ld_library_path_lib')
+[4.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.ps1'
+[4.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.dsv'
+[4.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.sh'
+[4.453s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces/bin'
+[4.453s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/pkgconfig/livox_interfaces.pc'
+[4.453s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/python3.10/site-packages'
+[4.454s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_interfaces/bin'
+[4.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.ps1'
+[4.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.dsv'
+[4.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.sh'
+[4.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.bash'
+[4.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.zsh'
+[4.461s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/livox_interfaces/share/colcon-core/packages/livox_interfaces)
+[19.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_sdk_vendor -- -j16 -l16
+[19.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_sdk_vendor
+[20.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_sdk_vendor)
+[20.113s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor' for CMake module files
+[20.114s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor' for CMake config files
+[20.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_sdk_vendor', 'cmake_prefix_path')
+[20.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.ps1'
+[20.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_sdk_vendor
+[20.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.dsv'
+[20.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.sh'
+[20.118s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/lib'
+[20.118s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/bin'
+[20.118s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/lib/pkgconfig/livox_sdk_vendor.pc'
+[20.119s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/lib/python3.10/site-packages'
+[20.119s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/bin'
+[20.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.ps1'
+[20.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv'
+[20.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.sh'
+[20.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.bash'
+[20.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.zsh'
+[20.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/colcon-core/packages/livox_sdk_vendor)
+[20.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_sdk_vendor)
+[20.132s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor' for CMake module files
+[20.133s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor' for CMake config files
+[20.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_sdk_vendor', 'cmake_prefix_path')
+[20.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.ps1'
+[20.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.dsv'
+[20.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.sh'
+[20.140s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/lib'
+[20.140s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/bin'
+[20.140s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/lib/pkgconfig/livox_sdk_vendor.pc'
+[20.141s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/lib/python3.10/site-packages'
+[20.141s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/bin'
+[20.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.ps1'
+[20.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv'
+[20.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.sh'
+[20.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.bash'
+[20.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.zsh'
+[20.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/livox_sdk_vendor/share/colcon-core/packages/livox_sdk_vendor)
+[20.154s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_ros2_driver' with build type 'ament_cmake'
+[20.154s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_ros2_driver'
+[20.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_ros2_driver
+[28.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_ros2_driver
+[28.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_ros2_driver -- -j16 -l16
+[46.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_ros2_driver -- -j16 -l16
+[46.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_ros2_driver
+[47.692s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros2_driver)
+[47.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/livox_sdk_vendor:/home/aliare/livox_ros2_ws/install/livox_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_ros2_driver
+[47.694s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver' for CMake module files
+[47.695s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver' for CMake config files
+[47.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros2_driver', 'cmake_prefix_path')
+[47.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.ps1'
+[47.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.dsv'
+[47.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.sh'
+[47.702s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/lib'
+[47.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros2_driver', 'ld_library_path_lib')
+[47.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.ps1'
+[47.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.dsv'
+[47.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.sh'
+[47.707s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/bin'
+[47.707s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/lib/pkgconfig/livox_ros2_driver.pc'
+[47.707s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/lib/python3.10/site-packages'
+[47.708s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/bin'
+[47.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.ps1'
+[47.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv'
+[47.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.sh'
+[47.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.bash'
+[47.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.zsh'
+[47.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/colcon-core/packages/livox_ros2_driver)
+[47.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros2_driver)
+[47.720s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver' for CMake module files
+[47.721s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver' for CMake config files
+[47.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros2_driver', 'cmake_prefix_path')
+[47.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.ps1'
+[47.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.dsv'
+[47.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.sh'
+[47.727s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/lib'
+[47.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros2_driver', 'ld_library_path_lib')
+[47.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.ps1'
+[47.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.dsv'
+[47.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.sh'
+[47.732s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/bin'
+[47.733s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/lib/pkgconfig/livox_ros2_driver.pc'
+[47.733s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/lib/python3.10/site-packages'
+[47.733s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/bin'
+[47.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.ps1'
+[47.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv'
+[47.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.sh'
+[47.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.bash'
+[47.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.zsh'
+[47.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/livox_ros2_driver/share/colcon-core/packages/livox_ros2_driver)
+[53.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/lio_livox_ros2 -- -j16 -l16
+[53.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/lio_livox_ros2
+[54.439s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_livox_ros2)
+[54.439s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2' for CMake module files
+[54.440s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2' for CMake config files
+[54.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_livox_ros2', 'cmake_prefix_path')
+[54.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/hook/cmake_prefix_path.ps1'
+[54.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/lio_livox_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/lio_livox_ros2
+[54.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/hook/cmake_prefix_path.dsv'
+[54.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/hook/cmake_prefix_path.sh'
+[54.447s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/lib'
+[54.447s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/bin'
+[54.447s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/lib/pkgconfig/lio_livox_ros2.pc'
+[54.448s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/lib/python3.10/site-packages'
+[54.448s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/bin'
+[54.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.ps1'
+[54.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.dsv'
+[54.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.sh'
+[54.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.bash'
+[54.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.zsh'
+[54.455s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/colcon-core/packages/lio_livox_ros2)
+[54.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_livox_ros2)
+[54.460s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2' for CMake module files
+[54.460s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2' for CMake config files
+[54.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_livox_ros2', 'cmake_prefix_path')
+[54.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/hook/cmake_prefix_path.ps1'
+[54.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/hook/cmake_prefix_path.dsv'
+[54.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/hook/cmake_prefix_path.sh'
+[54.466s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/lib'
+[54.467s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/bin'
+[54.467s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/lib/pkgconfig/lio_livox_ros2.pc'
+[54.467s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/lib/python3.10/site-packages'
+[54.471s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/bin'
+[54.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.ps1'
+[54.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.dsv'
+[54.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.sh'
+[54.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.bash'
+[54.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/lio_livox_ros2/package.zsh'
+[54.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/lio_livox_ros2/share/colcon-core/packages/lio_livox_ros2)
+[54.480s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aliare/livox_ros2_ws/src/livox_mapping' with build type 'ament_cmake'
+[54.480s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aliare/livox_ros2_ws/src/livox_mapping'
+[54.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[54.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[54.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_mapping': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_mapping
+[56.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_mapping' returned '0': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_mapping
+[56.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_mapping': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_mapping -- -j16 -l16
+[56.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_mapping' returned '0': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_mapping -- -j16 -l16
+[56.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/livox_mapping': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_mapping
+[56.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_mapping)
+[56.822s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping' for CMake module files
+[56.822s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping' for CMake config files
+[56.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_mapping', 'cmake_prefix_path')
+[56.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/hook/cmake_prefix_path.ps1'
+[56.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/hook/cmake_prefix_path.dsv'
+[56.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/hook/cmake_prefix_path.sh'
+[56.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/livox_mapping' returned '0': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_mapping
+[56.829s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping/bin'
+[56.829s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping/lib/pkgconfig/livox_mapping.pc'
+[56.830s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping/lib/python3.10/site-packages'
+[56.830s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping/bin'
+[56.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.ps1'
+[56.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.dsv'
+[56.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.sh'
+[56.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.bash'
+[56.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.zsh'
+[56.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/livox_mapping/share/colcon-core/packages/livox_mapping)
+[56.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_mapping)
+[56.839s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping' for CMake module files
+[56.843s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping' for CMake config files
+[56.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_mapping', 'cmake_prefix_path')
+[56.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/hook/cmake_prefix_path.ps1'
+[56.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/hook/cmake_prefix_path.dsv'
+[56.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/hook/cmake_prefix_path.sh'
+[56.849s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping/bin'
+[56.849s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping/lib/pkgconfig/livox_mapping.pc'
+[56.850s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping/lib/python3.10/site-packages'
+[56.850s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/livox_mapping/bin'
+[56.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.ps1'
+[56.854s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.dsv'
+[56.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.sh'
+[56.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.bash'
+[56.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.zsh'
+[56.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/livox_mapping/share/colcon-core/packages/livox_mapping)
+[254.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/gtsam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/gtsam -- -j16 -l16
+[254.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/gtsam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/gtsam
+[254.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/gtsam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/gtsam
+[254.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('gtsam', 'pkg_config_path')
+[254.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/pkg_config_path.ps1'
+[254.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/pkg_config_path.dsv'
+[254.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/pkg_config_path.sh'
+[254.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('gtsam', 'pkg_config_path_multiarch')
+[254.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/pkg_config_path_multiarch.ps1'
+[254.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/pkg_config_path_multiarch.dsv'
+[254.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/pkg_config_path_multiarch.sh'
+[254.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gtsam)
+[254.715s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/gtsam' for CMake module files
+[254.715s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/gtsam' for CMake config files
+[254.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('gtsam', 'cmake_prefix_path')
+[254.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/cmake_prefix_path.ps1'
+[254.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/cmake_prefix_path.dsv'
+[254.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/cmake_prefix_path.sh'
+[254.716s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/gtsam/lib'
+[254.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('gtsam', 'ld_library_path_lib')
+[254.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/ld_library_path_lib.ps1'
+[254.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/ld_library_path_lib.dsv'
+[254.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/hook/ld_library_path_lib.sh'
+[254.717s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/gtsam/bin'
+[254.717s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/gtsam/lib/pkgconfig/gtsam.pc'
+[254.717s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/gtsam/lib/python3.10/site-packages'
+[254.717s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/gtsam/bin'
+[254.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/package.ps1'
+[254.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/package.dsv'
+[254.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/package.sh'
+[254.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/package.bash'
+[254.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/gtsam/share/gtsam/package.zsh'
+[254.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/gtsam/share/colcon-core/packages/gtsam)
+[254.719s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[254.719s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[254.719s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[254.719s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[254.728s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[254.728s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[254.728s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[254.735s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[254.735s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliare/livox_ros2_ws/install/local_setup.ps1'
+[254.736s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aliare/livox_ros2_ws/install/_local_setup_util_ps1.py'
+[254.737s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliare/livox_ros2_ws/install/setup.ps1'
+[254.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliare/livox_ros2_ws/install/local_setup.sh'
+[254.737s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aliare/livox_ros2_ws/install/_local_setup_util_sh.py'
+[254.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliare/livox_ros2_ws/install/setup.sh'
+[254.738s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliare/livox_ros2_ws/install/local_setup.bash'
+[254.739s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliare/livox_ros2_ws/install/setup.bash'
+[254.739s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliare/livox_ros2_ws/install/local_setup.zsh'
+[254.739s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliare/livox_ros2_ws/install/setup.zsh'

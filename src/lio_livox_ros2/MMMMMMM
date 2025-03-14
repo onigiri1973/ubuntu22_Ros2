@@ -1,0 +1,54 @@
+cmake_minimum_required(VERSION 3.8)
+project(lio_livox_ros2)
+
+# C++14を使用
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
+
+# インクルードディレクトリの設定
+include_directories(
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+  ${PCL_INCLUDE_DIRS}
+)
+
+# 必要なパッケージ
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(PCL REQUIRED)
+
+
+
+# リンクディレクトリ
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+
+# ビルドターゲット
+add_executable(scan_registration src/scan_registration.cpp)
+ament_target_dependencies(scan_registration
+  rclcpp
+  sensor_msgs
+)
+target_link_libraries(scan_registration
+  ${PCL_LIBRARIES}
+)
+
+# インストール
+install(TARGETS
+  scan_registration
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY
+  include/
+  DESTINATION include/${PROJECT_NAME}
+)
+
+install(DIRECTORY
+  launch
+  config
+  DESTINATION share/${PROJECT_NAME}
+)
+
+ament_package()

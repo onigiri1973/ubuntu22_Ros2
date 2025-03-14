@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/build/livox_sdk_vendor/livox-sdk_install;-DCMAKE_POSITION_INDEPENDENT_CODE=ON;-DCMAKE_BUILD_TYPE=;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

@@ -1,0 +1,88 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"gtsamAddExesGlob_impl",
+			"gtsamAddTimingGlob"
+		],
+		"files" : 
+		[
+			"cmake/GtsamTesting.cmake",
+			"gtsam_unstable/timing/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 304,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "timeDSFvariants::@9e10f5fa8ddc6e33ec8c"
+		}
+	],
+	"id" : "timeDSFvariants.run::@9e10f5fa8ddc6e33ec8c",
+	"name" : "timeDSFvariants.run",
+	"paths" : 
+	{
+		"build" : "gtsam_unstable/timing",
+		"source" : "gtsam_unstable/timing"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/aliare/livox_ros2_ws/build/gtsam/gtsam_unstable/timing/CMakeFiles/timeDSFvariants.run",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/aliare/livox_ros2_ws/build/gtsam/gtsam_unstable/timing/CMakeFiles/timeDSFvariants.run.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

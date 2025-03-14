@@ -1,0 +1,21 @@
+source /opt/ros/humble/setup.bash
+source ~/livox_ros2_ws/install/setup.bash
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map livox_frame
+
+ros2 bag play ~/UsbDataLivox/livoxDemo/rosbag/rosbag2_2023_03_09-13_42_46 --qos-profile-overrides-path ~/UsbDataLivox/livoxDemo/rosbag/rosbag2_2023_03_09-13_42_46/qos_override.yaml
+
+
+ros2 topic echo /livox/imu
+
+ros2 run imu_filter_madgwick imu_filter_madgwick_node --ros-args -p use_mag:=false -p publish_tf:=true -p world_frame:=enu -p imu_in:=/livox/imu -p imu_out:=/imu/data
+
+
+
+rviz2 -d ~/livox_ros2_ws/src/lio_livox_ros2/rviz/my_livox_config.rviz
+
+ros2 bag play ~/UsbDataLivox/livoxDemo/rosbag/rosbag2_2023_03_09-13_42_46 --qos-profile-overrides-path ~/UsbDataLivox/livoxDemo/rosbag/rosbag2_2023_03_09-13_42_46/qos_override.yaml
+
+
+
+
+

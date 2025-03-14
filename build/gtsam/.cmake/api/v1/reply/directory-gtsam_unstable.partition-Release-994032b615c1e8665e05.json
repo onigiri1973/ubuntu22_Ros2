@@ -1,0 +1,48 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam_unstable/partition/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam_unstable/partition",
+			"paths" : 
+			[
+				"gtsam_unstable/partition/FindSeparator-inl.h",
+				"gtsam_unstable/partition/FindSeparator.h",
+				"gtsam_unstable/partition/GenericGraph.h",
+				"gtsam_unstable/partition/NestedDissection-inl.h",
+				"gtsam_unstable/partition/NestedDissection.h",
+				"gtsam_unstable/partition/PartitionWorkSpace.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam_unstable/partition",
+		"source" : "gtsam_unstable/partition"
+	}
+}

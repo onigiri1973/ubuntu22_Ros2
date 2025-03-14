@@ -1,0 +1,74 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam_unstable/slam/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam_unstable/slam",
+			"paths" : 
+			[
+				"gtsam_unstable/slam/AHRS.h",
+				"gtsam_unstable/slam/BetweenFactorEM.h",
+				"gtsam_unstable/slam/BiasedGPSFactor.h",
+				"gtsam_unstable/slam/DummyFactor.h",
+				"gtsam_unstable/slam/EquivInertialNavFactor_GlobalVel.h",
+				"gtsam_unstable/slam/EquivInertialNavFactor_GlobalVel_NoBias.h",
+				"gtsam_unstable/slam/GaussMarkov1stOrderFactor.h",
+				"gtsam_unstable/slam/InertialNavFactor_GlobalVelocity.h",
+				"gtsam_unstable/slam/InvDepthFactor3.h",
+				"gtsam_unstable/slam/InvDepthFactorVariant1.h",
+				"gtsam_unstable/slam/InvDepthFactorVariant2.h",
+				"gtsam_unstable/slam/InvDepthFactorVariant3.h",
+				"gtsam_unstable/slam/LocalOrientedPlane3Factor.h",
+				"gtsam_unstable/slam/Mechanization_bRn2.h",
+				"gtsam_unstable/slam/MultiProjectionFactor.h",
+				"gtsam_unstable/slam/PartialPriorFactor.h",
+				"gtsam_unstable/slam/PoseBetweenFactor.h",
+				"gtsam_unstable/slam/PosePriorFactor.h",
+				"gtsam_unstable/slam/PoseToPointFactor.h",
+				"gtsam_unstable/slam/ProjectionFactorPPP.h",
+				"gtsam_unstable/slam/ProjectionFactorPPPC.h",
+				"gtsam_unstable/slam/ProjectionFactorRollingShutter.h",
+				"gtsam_unstable/slam/RelativeElevationFactor.h",
+				"gtsam_unstable/slam/SmartProjectionPoseFactorRollingShutter.h",
+				"gtsam_unstable/slam/SmartRangeFactor.h",
+				"gtsam_unstable/slam/SmartStereoProjectionFactor.h",
+				"gtsam_unstable/slam/SmartStereoProjectionFactorPP.h",
+				"gtsam_unstable/slam/SmartStereoProjectionPoseFactor.h",
+				"gtsam_unstable/slam/TOAFactor.h",
+				"gtsam_unstable/slam/TSAMFactors.h",
+				"gtsam_unstable/slam/TransformBtwRobotsUnaryFactor.h",
+				"gtsam_unstable/slam/TransformBtwRobotsUnaryFactorEM.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam_unstable/slam",
+		"source" : "gtsam_unstable/slam"
+	}
+}

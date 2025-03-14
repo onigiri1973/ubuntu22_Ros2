@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/base/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/base",
+			"paths" : 
+			[
+				"gtsam/base/ConcurrentMap.h",
+				"gtsam/base/DSFMap.h",
+				"gtsam/base/DSFVector.h",
+				"gtsam/base/FastDefaultAllocator.h",
+				"gtsam/base/FastList.h",
+				"gtsam/base/FastMap.h",
+				"gtsam/base/FastSet.h",
+				"gtsam/base/FastVector.h",
+				"gtsam/base/GenericValue.h",
+				"gtsam/base/Group.h",
+				"gtsam/base/Lie.h",
+				"gtsam/base/Manifold.h",
+				"gtsam/base/Matrix.h",
+				"gtsam/base/MatrixSerialization.h",
+				"gtsam/base/OptionalJacobian.h",
+				"gtsam/base/ProductLieGroup.h",
+				"gtsam/base/SymmetricBlockMatrix.h",
+				"gtsam/base/Testable.h",
+				"gtsam/base/TestableAssertions.h",
+				"gtsam/base/ThreadsafeException.h",
+				"gtsam/base/Value.h",
+				"gtsam/base/Vector.h",
+				"gtsam/base/VectorSerialization.h",
+				"gtsam/base/VectorSpace.h",
+				"gtsam/base/VerticalBlockMatrix.h",
+				"gtsam/base/WeightedSampler.h",
+				"gtsam/base/chartTesting.h",
+				"gtsam/base/cholesky.h",
+				"gtsam/base/concepts.h",
+				"gtsam/base/debug.h",
+				"gtsam/base/kruskal-inl.h",
+				"gtsam/base/kruskal.h",
+				"gtsam/base/lieProxies.h",
+				"gtsam/base/make_shared.h",
+				"gtsam/base/numericalDerivative.h",
+				"gtsam/base/serialization.h",
+				"gtsam/base/serializationTestHelpers.h",
+				"gtsam/base/std_optional_serialization.h",
+				"gtsam/base/testLie.h",
+				"gtsam/base/timing.h",
+				"gtsam/base/treeTraversal-inst.h",
+				"gtsam/base/types.h",
+				"gtsam/base/utilities.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/base/treeTraversal",
+			"paths" : 
+			[
+				"gtsam/base/treeTraversal/parallelTraversalTasks.h",
+				"gtsam/base/treeTraversal/statistics.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/base",
+		"source" : "gtsam/base"
+	}
+}

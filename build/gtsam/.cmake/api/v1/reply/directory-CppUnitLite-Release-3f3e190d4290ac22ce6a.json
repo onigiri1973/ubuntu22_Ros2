@@ -1,0 +1,65 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CppUnitLite/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/CppUnitLite",
+			"paths" : 
+			[
+				"CppUnitLite/Failure.h",
+				"CppUnitLite/Test.h",
+				"CppUnitLite/TestHarness.h",
+				"CppUnitLite/TestRegistry.h",
+				"CppUnitLite/TestResult.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"CppUnitLite/libCppUnitLite.a"
+			],
+			"targetId" : "CppUnitLite::@7b1e0f57a8ce964f7a5a",
+			"targetIndex" : 8,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "CppUnitLite",
+		"source" : "CppUnitLite"
+	}
+}

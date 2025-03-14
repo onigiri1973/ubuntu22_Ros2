@@ -1,0 +1,2 @@
+Invoking command in '/home/aliare/livox_ros2_ws/build/imu_tools': /usr/bin/cmake /home/aliare/livox_ros2_ws/src/imu_tools/imu_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/imu_tools
+Invoked command in '/home/aliare/livox_ros2_ws/build/imu_tools' returned '1': /usr/bin/cmake /home/aliare/livox_ros2_ws/src/imu_tools/imu_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/imu_tools

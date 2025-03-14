@@ -1,0 +1,1 @@
+/home/aliare/livox_ros2_ws/build/lio_livox_ros2/ament_cmake_environment_hooks/local_setup.zsh

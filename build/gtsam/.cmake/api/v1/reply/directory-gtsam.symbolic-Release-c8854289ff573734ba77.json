@@ -1,0 +1,51 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/symbolic/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/symbolic",
+			"paths" : 
+			[
+				"gtsam/symbolic/SymbolicBayesNet.h",
+				"gtsam/symbolic/SymbolicBayesTree.h",
+				"gtsam/symbolic/SymbolicConditional.h",
+				"gtsam/symbolic/SymbolicEliminationTree.h",
+				"gtsam/symbolic/SymbolicFactor-inst.h",
+				"gtsam/symbolic/SymbolicFactor.h",
+				"gtsam/symbolic/SymbolicFactorGraph.h",
+				"gtsam/symbolic/SymbolicISAM.h",
+				"gtsam/symbolic/SymbolicJunctionTree.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/symbolic",
+		"source" : "gtsam/symbolic"
+	}
+}

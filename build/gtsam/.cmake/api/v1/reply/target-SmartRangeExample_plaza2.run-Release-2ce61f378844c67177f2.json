@@ -1,0 +1,88 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"gtsamAddExesGlob_impl",
+			"gtsamAddExamplesGlob"
+		],
+		"files" : 
+		[
+			"cmake/GtsamTesting.cmake",
+			"gtsam_unstable/examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 304,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "SmartRangeExample_plaza2::@2315e8b6133ac24b30b8"
+		}
+	],
+	"id" : "SmartRangeExample_plaza2.run::@2315e8b6133ac24b30b8",
+	"name" : "SmartRangeExample_plaza2.run",
+	"paths" : 
+	{
+		"build" : "gtsam_unstable/examples",
+		"source" : "gtsam_unstable/examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/aliare/livox_ros2_ws/build/gtsam/gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.run",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/aliare/livox_ros2_ws/build/gtsam/gtsam_unstable/examples/CMakeFiles/SmartRangeExample_plaza2.run.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

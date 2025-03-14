@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "ros2-default",
+      "displayName": "ROS 2 Default",
+      "description": "Default build using ROS 2 libraries",
+      "generator": "Ninja",
+      "binaryDir": "/build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_PREFIX_PATH": "/opt/ros/humble",
+        "CMAKE_INSTALL_PREFIX": "/install"
+      },
+      "environment": {
+        "CMAKE_PREFIX_PATH": "/opt/ros/humble"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/3rdparty/cephes/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/3rdparty/cephes",
+			"paths" : 
+			[
+				"gtsam/3rdparty/cephes/cephes.h",
+				"gtsam/3rdparty/cephes/cephes/dd_idefs.h",
+				"gtsam/3rdparty/cephes/cephes/dd_real.h",
+				"gtsam/3rdparty/cephes/cephes/dd_real_idefs.h",
+				"gtsam/3rdparty/cephes/cephes/expn.h",
+				"gtsam/3rdparty/cephes/cephes/igam.h",
+				"gtsam/3rdparty/cephes/cephes/lanczos.h",
+				"gtsam/3rdparty/cephes/cephes/mconf.h",
+				"gtsam/3rdparty/cephes/cephes/polevl.h",
+				"gtsam/3rdparty/cephes/cephes/sf_error.h",
+				"gtsam/3rdparty/cephes/dllexport.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"gtsam/3rdparty/cephes/libcephes-gtsam.so.1.0.0",
+				"gtsam/3rdparty/cephes/libcephes-gtsam.so.1"
+			],
+			"targetId" : "cephes-gtsam::@3f73c5b096a8d80fccdc",
+			"targetIndex" : 134,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"gtsam/3rdparty/cephes/libcephes-gtsam.so"
+			],
+			"targetId" : "cephes-gtsam::@3f73c5b096a8d80fccdc",
+			"targetIndex" : 134,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/3rdparty/cephes",
+		"source" : "gtsam/3rdparty/cephes"
+	}
+}

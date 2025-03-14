@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam_unstable/linear/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam_unstable/linear",
+			"paths" : 
+			[
+				"gtsam_unstable/linear/ActiveSetSolver-inl.h",
+				"gtsam_unstable/linear/ActiveSetSolver.h",
+				"gtsam_unstable/linear/EqualityFactorGraph.h",
+				"gtsam_unstable/linear/InequalityFactorGraph.h",
+				"gtsam_unstable/linear/InfeasibleInitialValues.h",
+				"gtsam_unstable/linear/InfeasibleOrUnboundedProblem.h",
+				"gtsam_unstable/linear/LP.h",
+				"gtsam_unstable/linear/LPInitSolver.h",
+				"gtsam_unstable/linear/LPSolver.h",
+				"gtsam_unstable/linear/LinearCost.h",
+				"gtsam_unstable/linear/LinearEquality.h",
+				"gtsam_unstable/linear/LinearInequality.h",
+				"gtsam_unstable/linear/QP.h",
+				"gtsam_unstable/linear/QPInitSolver.h",
+				"gtsam_unstable/linear/QPSParser.h",
+				"gtsam_unstable/linear/QPSParserException.h",
+				"gtsam_unstable/linear/QPSolver.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam_unstable/linear",
+		"source" : "gtsam_unstable/linear"
+	}
+}

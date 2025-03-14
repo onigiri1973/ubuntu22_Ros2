@@ -1,0 +1,6453 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "gtsam/libgtsam.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_options",
+			"gtsam_apply_build_flags",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"gtsam/CMakeLists.txt",
+			"cmake/GtsamBuildTypes.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 137,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 204,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 139,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 309,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 167,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wreturn-local-addr"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wreturn-type"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wformat"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-O3"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-unused-local-typedefs"
+				},
+				{
+					"fragment" : "-w -Wno-everything"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_ATOMIC_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_CHRONO_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_DATE_TIME_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_FILESYSTEM_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_REGEX_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_SERIALIZATION_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_SYSTEM_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_THREAD_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_TIMER_DYN_LINK"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NDEBUG"
+				},
+				{
+					"define" : "gtsam_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/aliare/livox_ros2_ws/build/gtsam"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/CppUnitLite"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/metis/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/metis/libmetis"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/metis/GKlib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/cephes"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/SuiteSparse_config"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/Spectra"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/CCOLAMD/Include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/Eigen"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				337,
+				338
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wreturn-local-addr"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wreturn-type"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wformat"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Werror=format-security"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wsuggest-override"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-O3"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wno-unused-local-typedefs"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_ATOMIC_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_CHRONO_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_DATE_TIME_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_FILESYSTEM_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_REGEX_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_SERIALIZATION_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_SYSTEM_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_THREAD_DYN_LINK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_TIMER_DYN_LINK"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NDEBUG"
+				},
+				{
+					"define" : "gtsam_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/aliare/livox_ros2_ws/build/gtsam"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/CppUnitLite"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/metis/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/metis/libmetis"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/metis/GKlib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/cephes"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/SuiteSparse_config"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/Spectra"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/CCOLAMD/Include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/home/aliare/livox_ros2_ws/src/gtsam/gtsam/3rdparty/Eigen"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				341,
+				352,
+				357,
+				363,
+				367,
+				371,
+				374,
+				385,
+				390,
+				392,
+				394,
+				397,
+				399,
+				403,
+				407,
+				409,
+				412,
+				414,
+				416,
+				418,
+				420,
+				422,
+				424,
+				426,
+				428,
+				430,
+				433,
+				435,
+				437,
+				439,
+				441,
+				446,
+				448,
+				450,
+				452,
+				455,
+				457,
+				459,
+				460,
+				462,
+				465,
+				467,
+				469,
+				472,
+				474,
+				476,
+				478,
+				481,
+				486,
+				494,
+				496,
+				502,
+				510,
+				512,
+				516,
+				518,
+				521,
+				523,
+				528,
+				530,
+				532,
+				534,
+				536,
+				539,
+				541,
+				543,
+				545,
+				547,
+				552,
+				554,
+				556,
+				558,
+				560,
+				562,
+				564,
+				566,
+				568,
+				570,
+				572,
+				575,
+				577,
+				580,
+				582,
+				584,
+				586,
+				588,
+				590,
+				592,
+				594,
+				596,
+				598,
+				600,
+				602,
+				604,
+				606,
+				608,
+				610,
+				612,
+				614,
+				616,
+				618,
+				620,
+				624,
+				626,
+				628,
+				631,
+				634,
+				636,
+				638,
+				640,
+				642,
+				644,
+				646,
+				649,
+				651,
+				654,
+				656,
+				658,
+				660,
+				662,
+				665,
+				669,
+				671,
+				674,
+				676,
+				678,
+				680,
+				683,
+				686,
+				689,
+				691,
+				693,
+				695,
+				703,
+				706,
+				710,
+				712,
+				714,
+				716,
+				718,
+				722,
+				724,
+				726,
+				728,
+				730,
+				733,
+				735,
+				737,
+				739,
+				741,
+				746,
+				765,
+				767,
+				769,
+				771,
+				773,
+				775,
+				780,
+				787,
+				790,
+				794,
+				801,
+				819,
+				822,
+				824,
+				826,
+				828,
+				830,
+				833,
+				835,
+				837,
+				841,
+				843,
+				845,
+				847,
+				850,
+				853,
+				855
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "metis-gtsam::@9fc90e4617efbe7781ca"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "cephes-gtsam::@3f73c5b096a8d80fccdc"
+		}
+	],
+	"id" : "gtsam::@bad977bbbe6ede080c3c",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/aliare/livox_ros2_ws/install/gtsam"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/aliare/livox_ros2_ws/build/gtsam/gtsam/3rdparty/metis/libmetis:/home/aliare/livox_ros2_ws/build/gtsam/gtsam/3rdparty/cephes:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_timer.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtbb.so.12.5",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtbbmalloc.so.2.5",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "3rdparty/metis/libmetis/libmetis-gtsam.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "3rdparty/cephes/libcephes-gtsam.so.1.0.0",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "gtsam",
+	"nameOnDisk" : "libgtsam.so",
+	"paths" : 
+	{
+		"build" : "gtsam",
+		"source" : "gtsam"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Cholesky",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\CholmodSupport",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\AVX",
+			"sourceIndexes" : 
+			[
+				76,
+				77,
+				78,
+				79
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\AVX512",
+			"sourceIndexes" : 
+			[
+				80,
+				81,
+				82,
+				83
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\AltiVec",
+			"sourceIndexes" : 
+			[
+				84,
+				85,
+				86,
+				87,
+				88,
+				89
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\CUDA",
+			"sourceIndexes" : 
+			[
+				90
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\Default",
+			"sourceIndexes" : 
+			[
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\GPU",
+			"sourceIndexes" : 
+			[
+				98,
+				99,
+				100
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\HIP\\hcc",
+			"sourceIndexes" : 
+			[
+				101
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\MSA",
+			"sourceIndexes" : 
+			[
+				102,
+				103,
+				104
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\NEON",
+			"sourceIndexes" : 
+			[
+				105,
+				106,
+				107,
+				108,
+				109
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\SSE",
+			"sourceIndexes" : 
+			[
+				110,
+				111,
+				112,
+				113
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\SVE",
+			"sourceIndexes" : 
+			[
+				114,
+				115,
+				116
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\SYCL",
+			"sourceIndexes" : 
+			[
+				117,
+				118,
+				119,
+				120,
+				121
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\arch\\ZVector",
+			"sourceIndexes" : 
+			[
+				122,
+				123,
+				124
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\functors",
+			"sourceIndexes" : 
+			[
+				125,
+				126,
+				127,
+				128,
+				129,
+				130
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\products",
+			"sourceIndexes" : 
+			[
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Core\\util",
+			"sourceIndexes" : 
+			[
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Eigenvalues",
+			"sourceIndexes" : 
+			[
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Geometry",
+			"sourceIndexes" : 
+			[
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Geometry\\arch",
+			"sourceIndexes" : 
+			[
+				197
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Householder",
+			"sourceIndexes" : 
+			[
+				198,
+				199,
+				200
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\IterativeLinearSolvers",
+			"sourceIndexes" : 
+			[
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\Jacobi",
+			"sourceIndexes" : 
+			[
+				209
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\KLUSupport",
+			"sourceIndexes" : 
+			[
+				210
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\LU",
+			"sourceIndexes" : 
+			[
+				211,
+				212,
+				213,
+				214,
+				215
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\LU\\arch",
+			"sourceIndexes" : 
+			[
+				216
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\MetisSupport",
+			"sourceIndexes" : 
+			[
+				217
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\OrderingMethods",
+			"sourceIndexes" : 
+			[
+				218,
+				219,
+				220
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\PaStiXSupport",
+			"sourceIndexes" : 
+			[
+				221
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\PardisoSupport",
+			"sourceIndexes" : 
+			[
+				222
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\QR",
+			"sourceIndexes" : 
+			[
+				223,
+				224,
+				225,
+				226,
+				227,
+				228
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\SPQRSupport",
+			"sourceIndexes" : 
+			[
+				229
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\SVD",
+			"sourceIndexes" : 
+			[
+				230,
+				231,
+				232,
+				233,
+				234
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\SparseCholesky",
+			"sourceIndexes" : 
+			[
+				235,
+				236
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\SparseCore",
+			"sourceIndexes" : 
+			[
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\SparseLU",
+			"sourceIndexes" : 
+			[
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\SparseQR",
+			"sourceIndexes" : 
+			[
+				284
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\StlSupport",
+			"sourceIndexes" : 
+			[
+				285,
+				286,
+				287,
+				288
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\SuperLUSupport",
+			"sourceIndexes" : 
+			[
+				289
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\UmfPackSupport",
+			"sourceIndexes" : 
+			[
+				290
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\misc",
+			"sourceIndexes" : 
+			[
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen\\src\\plugins",
+			"sourceIndexes" : 
+			[
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306
+			]
+		},
+		{
+			"name" : "3rdparty\\Eigen\\Eigen",
+			"sourceIndexes" : 
+			[
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336
+			]
+		},
+		{
+			"name" : "3rdparty\\CCOLAMD\\Source",
+			"sourceIndexes" : 
+			[
+				337
+			]
+		},
+		{
+			"name" : "3rdparty\\SuiteSparse_config",
+			"sourceIndexes" : 
+			[
+				338
+			]
+		},
+		{
+			"name" : "base",
+			"sourceIndexes" : 
+			[
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				390,
+				391,
+				392,
+				393
+			]
+		},
+		{
+			"name" : "base\\treeTraversal",
+			"sourceIndexes" : 
+			[
+				388,
+				389
+			]
+		},
+		{
+			"name" : "basis",
+			"sourceIndexes" : 
+			[
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402
+			]
+		},
+		{
+			"name" : "constrained",
+			"sourceIndexes" : 
+			[
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410
+			]
+		},
+		{
+			"name" : "geometry",
+			"sourceIndexes" : 
+			[
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482
+			]
+		},
+		{
+			"name" : "inference",
+			"sourceIndexes" : 
+			[
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499,
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529
+			]
+		},
+		{
+			"name" : "symbolic",
+			"sourceIndexes" : 
+			[
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				544,
+				545,
+				546
+			]
+		},
+		{
+			"name" : "discrete",
+			"sourceIndexes" : 
+			[
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582,
+				583,
+				584,
+				585,
+				586,
+				587
+			]
+		},
+		{
+			"name" : "hybrid",
+			"sourceIndexes" : 
+			[
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597,
+				598,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				606,
+				607,
+				608,
+				609,
+				610,
+				611,
+				612,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621
+			]
+		},
+		{
+			"name" : "linear",
+			"sourceIndexes" : 
+			[
+				622,
+				623,
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				632,
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				649,
+				650,
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				663,
+				664,
+				665,
+				666,
+				667,
+				668,
+				669,
+				670,
+				671,
+				672,
+				673,
+				674,
+				675,
+				676,
+				677,
+				678,
+				679,
+				680,
+				681,
+				682,
+				683,
+				684,
+				685,
+				686,
+				687
+			]
+		},
+		{
+			"name" : "nonlinear",
+			"sourceIndexes" : 
+			[
+				688,
+				689,
+				690,
+				691,
+				692,
+				693,
+				694,
+				695,
+				696,
+				697,
+				698,
+				699,
+				700,
+				701,
+				702,
+				703,
+				704,
+				705,
+				706,
+				707,
+				708,
+				709,
+				710,
+				711,
+				712,
+				713,
+				714,
+				715,
+				716,
+				717,
+				718,
+				719,
+				720,
+				721,
+				722,
+				723,
+				724,
+				725,
+				726,
+				727,
+				728,
+				729,
+				730,
+				731,
+				732,
+				733,
+				734,
+				735,
+				736,
+				737,
+				738,
+				739,
+				740,
+				741,
+				742,
+				743,
+				744,
+				745,
+				746,
+				747,
+				748,
+				749,
+				750,
+				751,
+				759,
+				760
+			]
+		},
+		{
+			"name" : "nonlinear\\internal",
+			"sourceIndexes" : 
+			[
+				752,
+				753,
+				754,
+				755,
+				756,
+				757,
+				758
+			]
+		},
+		{
+			"name" : "sam",
+			"sourceIndexes" : 
+			[
+				761,
+				762,
+				763
+			]
+		},
+		{
+			"name" : "sfm",
+			"sourceIndexes" : 
+			[
+				764,
+				765,
+				766,
+				767,
+				768,
+				769,
+				770,
+				771,
+				772,
+				773,
+				774,
+				775,
+				776,
+				777,
+				778,
+				779,
+				780,
+				781
+			]
+		},
+		{
+			"name" : "slam",
+			"sourceIndexes" : 
+			[
+				782,
+				783,
+				784,
+				785,
+				786,
+				787,
+				788,
+				789,
+				790,
+				791,
+				792,
+				793,
+				794,
+				795,
+				796,
+				797,
+				798,
+				799,
+				800,
+				801,
+				802,
+				803,
+				804,
+				805,
+				806,
+				807,
+				808,
+				809,
+				810,
+				811,
+				812,
+				813,
+				814,
+				815,
+				816,
+				817,
+				818,
+				819,
+				820,
+				821,
+				822,
+				823
+			]
+		},
+		{
+			"name" : "navigation",
+			"sourceIndexes" : 
+			[
+				824,
+				825,
+				826,
+				827,
+				828,
+				829,
+				830,
+				831,
+				832,
+				833,
+				834,
+				835,
+				836,
+				837,
+				838,
+				839,
+				840,
+				841,
+				842,
+				843,
+				844,
+				845,
+				846,
+				847,
+				848,
+				849,
+				850,
+				851,
+				852,
+				853,
+				854,
+				855,
+				856,
+				857
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				858,
+				859,
+				860,
+				861
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LDLT.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LLT.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LLT_LAPACKE.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/CholmodSupport/CholmodSupport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/ArithmeticSequence.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Array.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayWrapper.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Assign.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/AssignEvaluator.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Assign_MKL.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/BandMatrix.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Block.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/BooleanRedux.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/CommaInitializer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/ConditionEstimator.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/CoreEvaluators.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/CoreIterators.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/CwiseBinaryOp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/CwiseNullaryOp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/CwiseTernaryOp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/CwiseUnaryOp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/CwiseUnaryView.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/DenseBase.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/DenseCoeffsBase.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/DenseStorage.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Diagonal.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/DiagonalMatrix.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/DiagonalProduct.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Dot.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/EigenBase.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/ForceAlignedAccess.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Fuzzy.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/GeneralProduct.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/GenericPacketMath.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/GlobalFunctions.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/IO.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/IndexedView.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Inverse.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Map.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/MapBase.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/MathFunctions.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/MathFunctionsImpl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Matrix.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/MatrixBase.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/NestByValue.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/NoAlias.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/NumTraits.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/PartialReduxEvaluator.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/PermutationMatrix.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/PlainObjectBase.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Product.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/ProductEvaluators.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Random.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Redux.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Ref.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Replicate.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Reshaped.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/ReturnByValue.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Reverse.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Select.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/SelfAdjointView.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/SelfCwiseBinaryOp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Solve.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/SolveTriangular.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/SolverBase.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/StableNorm.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/StlIterators.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Stride.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Swap.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Transpose.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Transpositions.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/TriangularMatrix.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/VectorBlock.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/VectorwiseOp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/Visitor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX/Complex.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX/MathFunctions.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX/PacketMath.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX/TypeCasting.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX512/Complex.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX512/MathFunctions.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX512/PacketMath.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AVX512/TypeCasting.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/Complex.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/MathFunctions.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/MatrixProduct.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/AltiVec/PacketMath.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/CUDA/Complex.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/BFloat16.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/ConjHelper.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/Half.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/Settings.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/Default/TypeCasting.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/GPU/MathFunctions.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/GPU/PacketMath.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/GPU/TypeCasting.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/HIP/hcc/math_constants.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/MSA/Complex.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/MSA/MathFunctions.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/MSA/PacketMath.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/NEON/Complex.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/NEON/MathFunctions.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/NEON/PacketMath.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/NEON/TypeCasting.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SSE/Complex.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SSE/MathFunctions.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SSE/PacketMath.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SSE/TypeCasting.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SVE/MathFunctions.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SVE/PacketMath.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SVE/TypeCasting.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SYCL/InteropHeaders.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SYCL/MathFunctions.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SYCL/PacketMath.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/SYCL/TypeCasting.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/ZVector/Complex.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/ZVector/MathFunctions.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/arch/ZVector/PacketMath.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/functors/AssignmentFunctors.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/functors/BinaryFunctors.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/functors/NullaryFunctors.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/functors/StlFunctors.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/functors/TernaryFunctors.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/functors/UnaryFunctors.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralBlockPanelKernel.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixMatrix.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixVector.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/Parallelizer.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointMatrixMatrix.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointMatrixVector.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointProduct.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/SelfadjointRank2Update.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularMatrixMatrix.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularMatrixVector.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularSolverMatrix.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/products/TriangularSolverVector.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/BlasUtil.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/ConfigureVectorization.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/Constants.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/DisableStupidWarnings.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/ForwardDeclarations.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/IndexedViewHelper.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/IntegralConstant.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/MKL_support.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/Macros.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/Memory.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/Meta.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/NonMPL2.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/ReenableStupidWarnings.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/ReshapedHelper.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/StaticAssert.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/SymbolicIndex.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Core/util/XprHelper.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/ComplexEigenSolver.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/ComplexSchur.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/EigenSolver.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/RealQZ.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/RealSchur.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Eigenvalues/Tridiagonalization.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/AlignedBox.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/AngleAxis.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/EulerAngles.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/Homogeneous.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/Hyperplane.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/OrthoMethods.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/ParametrizedLine.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/Quaternion.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/Rotation2D.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/RotationBase.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/Scaling.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/Transform.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/Translation.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/Umeyama.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Geometry/arch/Geometry_SIMD.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Householder/BlockHouseholder.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Householder/Householder.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Householder/HouseholderSequence.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/Jacobi/Jacobi.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/KLUSupport/KLUSupport.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/LU/Determinant.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/LU/FullPivLU.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/LU/InverseImpl.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/LU/PartialPivLU.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/LU/PartialPivLU_LAPACKE.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/LU/arch/InverseSize4.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/MetisSupport/MetisSupport.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/OrderingMethods/Amd.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/OrderingMethods/Eigen_Colamd.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/OrderingMethods/Ordering.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/PaStiXSupport/PaStiXSupport.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/PardisoSupport/PardisoSupport.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/QR/ColPivHouseholderQR.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/QR/CompleteOrthogonalDecomposition.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/QR/FullPivHouseholderQR.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/QR/HouseholderQR.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/QR/HouseholderQR_LAPACKE.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SVD/BDCSVD.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SVD/JacobiSVD.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SVD/JacobiSVD_LAPACKE.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SVD/SVDBase.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SVD/UpperBidiagonalization.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCholesky/SimplicialCholesky.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/AmbiVector.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/CompressedStorage.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/MappedSparseMatrix.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseAssign.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseBlock.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseColEtree.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseCompressedBase.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseCwiseBinaryOp.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseCwiseUnaryOp.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseDenseProduct.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseDiagonalProduct.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseDot.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseFuzzy.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseMap.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseMatrix.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseMatrixBase.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparsePermutation.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseProduct.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseRedux.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseRef.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseSelfAdjointView.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseSolverBase.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseSparseProductWithPruning.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseTranspose.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseTriangularView.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseUtil.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseVector.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/SparseView.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseCore/TriangularSolver.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLUImpl.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_Memory.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_Structs.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_Utils.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_column_bmod.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_column_dfs.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_gemm_kernel.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_kernel_bmod.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_panel_bmod.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_panel_dfs.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_pivotL.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_pruneL.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseLU/SparseLU_relax_snode.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SparseQR/SparseQR.h",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/StlSupport/StdDeque.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/StlSupport/StdList.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/StlSupport/StdVector.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/StlSupport/details.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/SuperLUSupport/SuperLUSupport.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/UmfPackSupport/UmfPackSupport.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/misc/Image.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/misc/Kernel.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/misc/RealSvd2x2.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/misc/blas.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/misc/lapack.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/misc/lapacke.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/misc/lapacke_mangling.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/plugins/ArrayCwiseBinaryOps.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/plugins/ArrayCwiseUnaryOps.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/plugins/BlockMethods.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/plugins/CommonCwiseBinaryOps.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/plugins/IndexedViewMethods.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/src/plugins/ReshapedMethods.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/Cholesky",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/CholmodSupport",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/Core",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/Dense",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/Eigen",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/Eigenvalues",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/Geometry",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/Householder",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/IterativeLinearSolvers",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/Jacobi",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/KLUSupport",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/LU",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/MetisSupport",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/OrderingMethods",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/PaStiXSupport",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/PardisoSupport",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/QR",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/QtAlignedMalloc",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/SPQRSupport",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/SVD",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/Sparse",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/SparseCholesky",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/SparseCore",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/SparseLU",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/SparseQR",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/StdDeque",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/StdList",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/StdVector",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/SuperLUSupport",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/3rdparty/Eigen/Eigen/UmfPackSupport",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gtsam/3rdparty/CCOLAMD/Source/ccolamd.c",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gtsam/3rdparty/SuiteSparse_config/SuiteSparse_config.c",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/ConcurrentMap.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/DSFMap.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/base/DSFVector.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/DSFVector.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/FastDefaultAllocator.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/FastList.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/FastMap.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/FastSet.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/FastVector.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/GenericValue.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/Group.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/Lie.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/Manifold.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/base/Matrix.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/Matrix.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/MatrixSerialization.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/OptionalJacobian.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/ProductLieGroup.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/base/SymmetricBlockMatrix.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/SymmetricBlockMatrix.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/Testable.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/TestableAssertions.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/ThreadsafeException.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/Value.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/base/Vector.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/Vector.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/VectorSerialization.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/VectorSpace.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/base/VerticalBlockMatrix.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/VerticalBlockMatrix.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/WeightedSampler.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/chartTesting.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/base/cholesky.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/cholesky.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/concepts.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/base/debug.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/debug.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/kruskal-inl.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/kruskal.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/lieProxies.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/make_shared.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/numericalDerivative.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/serialization.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/serializationTestHelpers.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/std_optional_serialization.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/testLie.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/base/timing.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/timing.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/treeTraversal-inst.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/treeTraversal/parallelTraversalTasks.h",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/treeTraversal/statistics.h",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/base/types.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/types.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/base/utilities.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/base/utilities.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/basis/Basis.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/basis/Basis.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/basis/BasisFactors.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/basis/Chebyshev.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/basis/Chebyshev.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/basis/Chebyshev2.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/basis/Chebyshev2.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/basis/FitBasis.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/basis/Fourier.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/constrained/InequalityPenaltyFunction.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/constrained/InequalityPenaltyFunction.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/constrained/NonlinearConstraint.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/constrained/NonlinearEqualityConstraint-inl.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/constrained/NonlinearEqualityConstraint.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/constrained/NonlinearEqualityConstraint.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/constrained/NonlinearInequalityConstraint.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/constrained/NonlinearInequalityConstraint.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/BearingRange.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Cal3.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Cal3.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Cal3Bundler.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Cal3Bundler.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Cal3DS2.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Cal3DS2.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Cal3DS2_Base.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Cal3DS2_Base.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Cal3Fisheye.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Cal3Fisheye.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Cal3Unified.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Cal3Unified.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Cal3_S2.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Cal3_S2.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Cal3_S2Stereo.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Cal3_S2Stereo.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Cal3f.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Cal3f.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/CalibratedCamera.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/CalibratedCamera.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/CameraSet.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Cyclic.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Cyclic.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/EssentialMatrix.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/EssentialMatrix.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/FundamentalMatrix.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/FundamentalMatrix.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Line3.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Line3.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/OrientedPlane3.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/OrientedPlane3.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/PinholeCamera.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/PinholePose.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/PinholeSet.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Point2.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Point2.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Point3.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Point3.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Pose2.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Pose2.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Pose3.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Pose3.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Quaternion.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Rot2.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Rot2.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Rot3.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Rot3.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Rot3M.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/SO3.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/SO3.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/SO4.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/SO4.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/SOn-inl.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/SOn.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/SOn.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Similarity2.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Similarity2.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Similarity3.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Similarity3.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/SimpleCamera.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/SphericalCamera.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/SphericalCamera.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/StereoCamera.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/StereoCamera.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/StereoPoint2.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/StereoPoint2.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/Unit3.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/Unit3.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/concepts.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/geometry/triangulation.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/geometry/triangulation.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/BayesNet-inst.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/BayesNet.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/BayesTree-inst.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/inference/BayesTree.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/BayesTree.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/BayesTreeCliqueBase-inst.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/BayesTreeCliqueBase.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/ClusterTree-inst.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/ClusterTree.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/Conditional-inst.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/Conditional.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/inference/DotWriter.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/DotWriter.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/inference/EdgeKey.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/EdgeKey.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/EliminateableFactorGraph-inst.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/EliminateableFactorGraph.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/EliminationTree-inst.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/EliminationTree.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/inference/Factor.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/Factor.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/FactorGraph-inst.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/FactorGraph.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/ISAM-inst.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/ISAM.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/JunctionTree-inst.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/JunctionTree.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/inference/Key.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/Key.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/inference/LabeledSymbol.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/LabeledSymbol.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/MetisIndex-inl.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/MetisIndex.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/inference/Ordering.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/Ordering.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/inference/Symbol.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/Symbol.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/VariableIndex-inl.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/inference/VariableIndex.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/VariableIndex.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/inference/VariableSlots.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/VariableSlots.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/graph-inl.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/graph.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/inference-inst.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/inference/inferenceExceptions.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/inference/inferenceExceptions.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/symbolic/SymbolicBayesNet.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/symbolic/SymbolicBayesNet.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/symbolic/SymbolicBayesTree.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/symbolic/SymbolicBayesTree.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/symbolic/SymbolicConditional.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/symbolic/SymbolicConditional.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/symbolic/SymbolicEliminationTree.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/symbolic/SymbolicEliminationTree.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/symbolic/SymbolicFactor-inst.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/symbolic/SymbolicFactor.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/symbolic/SymbolicFactor.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/symbolic/SymbolicFactorGraph.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/symbolic/SymbolicFactorGraph.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/symbolic/SymbolicISAM.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/symbolic/SymbolicISAM.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/symbolic/SymbolicJunctionTree.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/symbolic/SymbolicJunctionTree.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/AlgebraicDecisionTree.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/AlgebraicDecisionTree.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/Assignment.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DecisionTree-inl.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DecisionTree.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DecisionTreeFactor.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DecisionTreeFactor.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteBayesNet.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteBayesNet.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteBayesTree.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteBayesTree.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteConditional.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteConditional.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteDistribution.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteDistribution.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteEliminationTree.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteEliminationTree.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteFactor.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteFactor.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteFactorGraph.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteFactorGraph.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteJunctionTree.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteJunctionTree.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteKey.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteKey.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteLookupDAG.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteLookupDAG.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteMarginals.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteSearch.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteSearch.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/DiscreteValues.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/DiscreteValues.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/Ring.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/Signature.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/Signature.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/SignatureParser.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/SignatureParser.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/TableDistribution.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/TableDistribution.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/discrete/TableFactor.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/discrete/TableFactor.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridBayesNet.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridBayesNet.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridBayesTree.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridBayesTree.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridConditional.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridConditional.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridEliminationTree.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridEliminationTree.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridFactor.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridFactor.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridFactorGraph.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridFactorGraph.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridGaussianConditional.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridGaussianConditional.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridGaussianFactor.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridGaussianFactor.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridGaussianFactorGraph.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridGaussianFactorGraph.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridGaussianISAM.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridGaussianISAM.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridGaussianProductFactor.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridGaussianProductFactor.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridJunctionTree.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridJunctionTree.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridNonlinearFactor.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridNonlinearFactor.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridNonlinearFactorGraph.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridNonlinearFactorGraph.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridNonlinearISAM.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridNonlinearISAM.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridSmoother.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridSmoother.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/hybrid/HybridValues.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/hybrid/HybridValues.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/AcceleratedPowerMethod.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/BinaryJacobianFactor.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/ConjugateGradientSolver.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/ConjugateGradientSolver.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/Errors.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/Errors.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/GaussianBayesNet.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/GaussianBayesNet.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/GaussianBayesTree-inl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/GaussianBayesTree.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/GaussianBayesTree.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/GaussianConditional-inl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/GaussianConditional.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/GaussianConditional.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/GaussianDensity.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/GaussianDensity.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/GaussianEliminationTree.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/GaussianEliminationTree.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/GaussianFactor.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/GaussianFactor.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/GaussianFactorGraph.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/GaussianFactorGraph.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/GaussianISAM.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/GaussianISAM.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/GaussianJunctionTree.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/GaussianJunctionTree.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/HessianFactor-inl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/HessianFactor.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/HessianFactor.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/IterativeSolver.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/IterativeSolver.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/JacobianFactor-inl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/JacobianFactor.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/JacobianFactor.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/KalmanFilter.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/KalmanFilter.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/LossFunctions.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/LossFunctions.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/NoiseModel.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/NoiseModel.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/PCGSolver.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/PCGSolver.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/PowerMethod.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/Preconditioner.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/Preconditioner.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/RegularHessianFactor.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/RegularJacobianFactor.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/Sampler.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/Sampler.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/Scatter.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/Scatter.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/SparseEigen.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/SubgraphBuilder.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/SubgraphBuilder.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/SubgraphPreconditioner.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/SubgraphPreconditioner.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/SubgraphSolver.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/SubgraphSolver.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/VectorValues.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/VectorValues.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/iterative-inl.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/iterative.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/iterative.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/linearAlgorithms-inst.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/linear/linearExceptions.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/linear/linearExceptions.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/AdaptAutoDiff.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/BatchFixedLagSmoother.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/BatchFixedLagSmoother.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/CustomFactor.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/CustomFactor.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/DoglegOptimizer.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/DoglegOptimizer.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/DoglegOptimizerImpl.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/DoglegOptimizerImpl.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/Expression-inl.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/Expression.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/ExpressionFactor.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/ExpressionFactorGraph.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/ExtendedKalmanFilter-inl.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/ExtendedKalmanFilter.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/FixedLagSmoother.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/FixedLagSmoother.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/FunctorizedFactor.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/GaussNewtonOptimizer.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/GaussNewtonOptimizer.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/GncOptimizer.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/GncParams.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/GraphvizFormatting.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/GraphvizFormatting.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/ISAM2-impl.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/ISAM2-impl.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/ISAM2.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/ISAM2.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/ISAM2Clique.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/ISAM2Clique.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/ISAM2Params.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/ISAM2Params.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/ISAM2Result.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/ISAM2UpdateParams.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/LevenbergMarquardtOptimizer.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/LevenbergMarquardtOptimizer.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/LevenbergMarquardtParams.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/LevenbergMarquardtParams.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/LinearContainerFactor.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/LinearContainerFactor.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/Marginals.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/Marginals.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/NonlinearConjugateGradientOptimizer.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/NonlinearConjugateGradientOptimizer.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/NonlinearEquality.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/NonlinearFactor.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/NonlinearFactor.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/NonlinearFactorGraph.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/NonlinearFactorGraph.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/NonlinearISAM.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/NonlinearISAM.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/NonlinearOptimizer.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/NonlinearOptimizer.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/NonlinearOptimizerParams.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/NonlinearOptimizerParams.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/PriorFactor.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/Symbol.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/Values-inl.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/nonlinear/Values.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/Values.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/WhiteNoiseFactor.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/expressionTesting.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/expressions.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/factorTesting.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/internal/CallRecord.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/internal/ChiSquaredInverse.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/internal/ExecutionTrace.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/internal/ExpressionNode.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/internal/JacobianMap.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/internal/LevenbergMarquardtState.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/internal/NonlinearOptimizerState.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/nonlinearExceptions.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/nonlinear/utilities.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sam/BearingFactor.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sam/BearingRangeFactor.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sam/RangeFactor.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sfm/BinaryMeasurement.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/sfm/DsfTrackGenerator.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sfm/DsfTrackGenerator.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/sfm/MFAS.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sfm/MFAS.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/sfm/SfmData.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sfm/SfmData.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/sfm/SfmTrack.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sfm/SfmTrack.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/sfm/ShonanAveraging.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sfm/ShonanAveraging.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/sfm/ShonanFactor.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sfm/ShonanFactor.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sfm/ShonanGaugeFactor.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sfm/TransferFactor.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sfm/TranslationFactor.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/sfm/TranslationRecovery.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/sfm/TranslationRecovery.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/AntiFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/BearingFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/BearingRangeFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/BetweenFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/BoundingConstraint.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/slam/EssentialMatrixConstraint.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/EssentialMatrixConstraint.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/EssentialMatrixFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/slam/FrobeniusFactor.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/FrobeniusFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/GeneralSFMFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/InitializePose.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/slam/InitializePose3.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/InitializePose3.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/JacobianFactorQ.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/JacobianFactorQR.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/JacobianFactorSVD.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/KarcherMeanFactor-inl.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/KarcherMeanFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/slam/OrientedPlane3Factor.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/OrientedPlane3Factor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/PlanarProjectionFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/PoseRotationPrior.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/PoseTranslationPrior.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/PriorFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/ProjectionFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/RangeFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/ReferenceFrameFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/RegularImplicitSchurFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/RotateFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/SmartFactorBase.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/SmartFactorParams.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/SmartProjectionFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/SmartProjectionPoseFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/SmartProjectionRigFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/StereoFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/TriangulationFactor.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/slam/dataset.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/dataset.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/expressions.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/slam/lago.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/slam/lago.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/AHRSFactor.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/AHRSFactor.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/AttitudeFactor.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/AttitudeFactor.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/BarometricFactor.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/BarometricFactor.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/CombinedImuFactor.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/CombinedImuFactor.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/ConstantVelocityFactor.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/GPSFactor.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/GPSFactor.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/ImuBias.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/ImuBias.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/ImuFactor.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/ImuFactor.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/MagFactor.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/MagPoseFactor.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/ManifoldPreintegration.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/ManifoldPreintegration.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/NavState.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/NavState.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/PreintegratedRotation.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/PreintegratedRotation.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/PreintegrationBase.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/PreintegrationBase.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/PreintegrationCombinedParams.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/PreintegrationParams.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/PreintegrationParams.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/Scenario.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/ScenarioRunner.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/ScenarioRunner.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "gtsam/navigation/TangentPreintegration.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/TangentPreintegration.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/navigation/expressions.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/global_includes.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "gtsam/precompiled_header.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/aliare/livox_ros2_ws/build/gtsam/gtsam/config.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/aliare/livox_ros2_ws/build/gtsam/gtsam/dllexport.h",
+			"sourceGroupIndex" : 63
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

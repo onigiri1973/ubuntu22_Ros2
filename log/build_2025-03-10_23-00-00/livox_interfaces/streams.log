@@ -1,0 +1,231 @@
+[0.008s] Invoking command in '/home/aliare/livox_ros2_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_interfaces
+[0.039s] -- The C compiler identification is GNU 11.4.0
+[0.074s] -- The CXX compiler identification is GNU 11.4.0
+[0.078s] -- Detecting C compiler ABI info
+[0.120s] -- Detecting C compiler ABI info - done
+[0.125s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.125s] -- Detecting C compile features
+[0.125s] -- Detecting C compile features - done
+[0.127s] -- Detecting CXX compiler ABI info
+[0.175s] -- Detecting CXX compiler ABI info - done
+[0.180s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.180s] -- Detecting CXX compile features
+[0.181s] -- Detecting CXX compile features - done
+[0.182s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.276s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.318s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.329s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.347s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.351s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.355s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.387s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.566s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.789s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.875s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.889s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.890s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.906s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.906s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.906s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.906s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.919s] -- Found PythonExtra: .so  
+[0.948s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.957s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.958s] -- Added test 'lint_cmake' to check CMake code style
+[0.959s] -- Added test 'xmllint' to check XML markup files
+[0.960s] -- Configuring done
+[0.979s] -- Generating done
+[0.985s] -- Build files have been written to: /home/aliare/livox_ros2_ws/build/livox_interfaces
+[0.989s] Invoked command in '/home/aliare/livox_ros2_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_interfaces
+[0.990s] Invoking command in '/home/aliare/livox_ros2_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_interfaces -- -j16 -l16
+[1.015s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.021s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.026s] [  5%] Built target ament_cmake_python_symlink_livox_interfaces
+[1.169s] running egg_info
+[1.170s] creating livox_interfaces.egg-info
+[1.170s] writing livox_interfaces.egg-info/PKG-INFO
+[1.170s] writing dependency_links to livox_interfaces.egg-info/dependency_links.txt
+[1.170s] writing top-level names to livox_interfaces.egg-info/top_level.txt
+[1.170s] writing manifest file 'livox_interfaces.egg-info/SOURCES.txt'
+[1.171s] reading manifest file 'livox_interfaces.egg-info/SOURCES.txt'
+[1.171s] writing manifest file 'livox_interfaces.egg-info/SOURCES.txt'
+[1.189s] [  5%] Built target ament_cmake_python_build_livox_interfaces_egg
+[1.306s] [  5%] Built target livox_interfaces__cpp
+[1.307s] [ 10%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_generator_c.dir/rosidl_generator_c/livox_interfaces/msg/detail/custom_point__functions.c.o[0m
+[1.307s] [ 10%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_generator_c.dir/rosidl_generator_c/livox_interfaces/msg/detail/custom_msg__functions.c.o[0m
+[1.313s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.313s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.313s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.338s] [ 20%] [32m[1mLinking C shared library liblivox_interfaces__rosidl_generator_c.so[0m
+[1.363s] [ 20%] Built target livox_interfaces__rosidl_generator_c
+[1.369s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.370s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.370s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.569s] [ 33%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_interfaces/msg/custom_point__type_support.cpp.o[0m
+[1.570s] [ 33%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_interfaces/msg/custom_msg__type_support.cpp.o[0m
+[1.585s] [ 35%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_point__type_support.cpp.o[0m
+[1.587s] [ 38%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_interfaces/msg/detail/custom_msg__type_support.cpp.o[0m
+[1.607s] [ 43%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_interfaces/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[1.607s] [ 43%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_interfaces/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[1.634s] [ 46%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_interfaces/msg/custom_point__type_support.cpp.o[0m
+[1.637s] [ 48%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_interfaces/msg/custom_msg__type_support.cpp.o[0m
+[1.660s] [ 53%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_interfaces/msg/detail/custom_point__type_support_c.cpp.o[0m
+[1.660s] [ 53%] [32mBuilding CXX object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_interfaces/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[1.667s] [ 56%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_c.so[0m
+[1.682s] [ 58%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_interfaces/msg/detail/custom_point__type_support.c.o[0m
+[1.685s] [ 61%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_interfaces/msg/detail/custom_msg__type_support.c.o[0m
+[1.705s] [ 61%] Built target livox_interfaces__rosidl_typesupport_c
+[1.725s] [ 64%] [32m[1mLinking C shared library liblivox_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.757s] [ 64%] Built target livox_interfaces__rosidl_typesupport_introspection_c
+[1.809s] [ 66%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_cpp.so[0m
+[1.837s] [ 66%] Built target livox_interfaces__rosidl_typesupport_cpp
+[1.905s] [ 69%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.931s] [ 71%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.943s] [ 74%] [32m[1mLinking CXX shared library liblivox_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.954s] [ 74%] Built target livox_interfaces__rosidl_typesupport_introspection_cpp
+[1.982s] [ 74%] Built target livox_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.993s] [ 74%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c
+[2.006s] [ 74%] Built target livox_interfaces
+[2.018s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.827s] [ 76%] Built target livox_interfaces__py
+[2.855s] [ 79%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_generator_py.dir/rosidl_generator_py/livox_interfaces/msg/_custom_point_s.c.o[0m
+[2.856s] [ 82%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_generator_py.dir/rosidl_generator_py/livox_interfaces/msg/_custom_msg_s.c.o[0m
+[3.018s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/livox_interfaces/liblivox_interfaces__rosidl_generator_py.so[0m
+[3.086s] [ 84%] Built target livox_interfaces__rosidl_generator_py
+[3.131s] [ 87%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.138s] [ 89%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.144s] [ 92%] [32mBuilding C object CMakeFiles/livox_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.276s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.298s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.324s] [100%] [32m[1mLinking C shared library rosidl_generator_py/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.339s] [100%] Built target livox_interfaces__rosidl_typesupport_c__pyext
+[3.367s] [100%] Built target livox_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.395s] [100%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.422s] Invoked command in '/home/aliare/livox_ros2_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_interfaces -- -j16 -l16
+[3.447s] Invoking command in '/home/aliare/livox_ros2_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_interfaces
+[3.458s] -- Install configuration: ""
+[3.458s] -- Execute custom install script
+[3.458s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/ament_index/resource_index/rosidl_interfaces/livox_interfaces
+[3.472s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_msg.h
+[3.483s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_point.h
+[3.492s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__functions.h
+[3.502s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__struct.h
+[3.513s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__type_support.h
+[3.521s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__functions.h
+[3.531s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__struct.h
+[3.541s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__type_support.h
+[3.550s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.559s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/library_path.sh
+[3.565s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/library_path.dsv
+[3.572s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[3.578s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[3.584s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.590s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_msg.hpp
+[3.596s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/custom_point.hpp
+[3.603s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__builder.hpp
+[3.609s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__struct.hpp
+[3.615s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__traits.hpp
+[3.621s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__type_support.hpp
+[3.627s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__builder.hpp
+[3.633s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__struct.hpp
+[3.639s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__traits.hpp
+[3.645s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__type_support.hpp
+[3.651s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.656s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[3.662s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.668s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.674s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[3.679s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[3.685s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.691s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[3.697s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/include/livox_interfaces/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[3.702s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.sh
+[3.708s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.dsv
+[3.714s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[3.719s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[3.725s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[3.730s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[3.736s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/__init__.py
+[3.742s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_c.c
+[3.747s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.752s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/_livox_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.758s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/liblivox_interfaces__rosidl_generator_py.so
+[3.764s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.769s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.776s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.782s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/__init__.py
+[3.787s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_msg.py
+[3.793s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_msg_s.c
+[3.798s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_point.py
+[3.804s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_point_s.c
+[3.810s] -- Up-to-date symlink: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.810s] -- Up-to-date symlink: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.810s] -- Up-to-date symlink: /home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.810s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.idl
+[3.816s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.idl
+[3.821s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.msg
+[3.827s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.msg
+[3.833s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/ament_index/resource_index/package_run_dependencies/livox_interfaces
+[3.838s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/ament_index/resource_index/parent_prefix_path/livox_interfaces
+[3.844s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.sh
+[3.849s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.dsv
+[3.855s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/path.sh
+[3.861s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/path.dsv
+[3.867s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/local_setup.bash
+[3.872s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/local_setup.sh
+[3.878s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/local_setup.zsh
+[3.886s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/local_setup.dsv
+[3.892s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.dsv
+[3.902s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/ament_index/resource_index/packages/livox_interfaces
+[3.920s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.940s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.958s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.977s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.997s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.017s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.040s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.061s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig.cmake
+[4.082s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig-version.cmake
+[4.100s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/package.xml
+[4.118s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_c.so
+[4.119s] -- Set runtime path of "/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_c.so" to ""
+[4.119s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.119s] -- Set runtime path of "/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.119s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.119s] -- Set runtime path of "/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.119s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_c.so
+[4.119s] -- Set runtime path of "/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.119s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_c.so
+[4.124s] -- Set runtime path of "/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_c.so" to ""
+[4.124s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.124s] -- Set runtime path of "/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.124s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_cpp.so
+[4.124s] -- Set runtime path of "/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.205s] Listing '/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces'...
+[4.205s] Compiling '/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/__init__.py'...
+[4.205s] Listing '/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg'...
+[4.205s] Compiling '/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/__init__.py'...
+[4.205s] Compiling '/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_msg.py'...
+[4.205s] Compiling '/home/aliare/livox_ros2_ws/install/livox_interfaces/local/lib/python3.10/dist-packages/livox_interfaces/msg/_custom_point.py'...
+[4.216s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_py.so
+[4.216s] -- Set runtime path of "/home/aliare/livox_ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_py.so" to ""
+[4.216s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_cExport.cmake
+[4.216s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.216s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.216s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.217s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_cppExport.cmake
+[4.217s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.217s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.217s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.218s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.218s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport.cmake
+[4.218s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.219s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.219s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.219s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport.cmake
+[4.219s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.220s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_pyExport.cmake
+[4.220s] -- Installing: /home/aliare/livox_ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/export_livox_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.243s] Invoked command in '/home/aliare/livox_ros2_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_interfaces

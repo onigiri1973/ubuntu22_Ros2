@@ -1,0 +1,16 @@
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping//launch/livox_mapping.launch.py
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/ament_index/resource_index/package_run_dependencies/livox_mapping
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/ament_index/resource_index/parent_prefix_path/livox_mapping
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/ament_prefix_path.sh
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/ament_prefix_path.dsv
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/path.sh
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/path.dsv
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.bash
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.sh
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.zsh
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.dsv
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.dsv
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/ament_index/resource_index/packages/livox_mapping
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/cmake/livox_mappingConfig.cmake
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/cmake/livox_mappingConfig-version.cmake
+/home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.xml

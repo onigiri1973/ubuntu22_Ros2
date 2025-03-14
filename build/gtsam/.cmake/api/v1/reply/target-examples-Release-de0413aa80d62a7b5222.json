@@ -1,0 +1,811 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"add_dependencies",
+			"gtsamAddExesGlob_impl",
+			"gtsamAddExamplesGlob"
+		],
+		"files" : 
+		[
+			"cmake/GtsamTesting.cmake",
+			"CMakeLists.txt",
+			"examples/CMakeLists.txt",
+			"gtsam_unstable/discrete/examples/CMakeLists.txt",
+			"gtsam_unstable/examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 19,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 6
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 64
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 65
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 66
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 66
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 66
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 12,
+				"parent" : 70
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 71
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 72
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 72
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 72
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 72
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 72
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 72
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 72
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 72
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 72
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 72
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 72
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "CameraResectioning::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "CombinedImuFactorsExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "CreateSFMExampleData::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "DiscreteBayesNetExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "DiscreteBayesNet_FG::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "EssentialViewGraphExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "FisheyeExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "GNCExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "HMMExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Hybrid_City10000::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "IMUKittiExampleGPS::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "ISAM2Example_SmartFactor::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "ISAM2_City10000::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "ImuFactorsExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "ImuFactorsExample2::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "InverseKinematicsExampleExpressions::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "LocalizationExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "METISOrderingExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "OdometryExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "PlanarSLAMExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "Pose2SLAMExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "Pose2SLAMExampleExpressions::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "Pose2SLAMExample_g2o::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "Pose2SLAMExample_graph::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "Pose2SLAMExample_graphviz::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "Pose2SLAMExample_lago::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "Pose2SLAMStressTest::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "Pose2SLAMwSPCG::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "Pose3Localization::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "Pose3SLAMExampleExpressions_BearingRangeWithTransform::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "Pose3SLAMExample_changeKeys::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "Pose3SLAMExample_g2o::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "Pose3SLAMExample_initializePose3Chordal::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "Pose3SLAMExample_initializePose3Gradient::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "RangeISAMExample_plaza2::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "SFMExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "SFMExampleExpressions::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "SFMExampleExpressions_bal::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "SFMExample_SmartFactor::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 46,
+			"id" : "SFMExample_SmartFactorPCG::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 47,
+			"id" : "SFMExample_bal::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 48,
+			"id" : "SFMExample_bal_COLAMD_METIS::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "SelfCalibrationExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "ShonanAveragingCLI::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 51,
+			"id" : "SimpleRotation::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 52,
+			"id" : "SolverComparer::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 53,
+			"id" : "StereoVOExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "StereoVOExample_large::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 55,
+			"id" : "TimeTBB::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "TriangulationLOSTExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 57,
+			"id" : "UGM_chain::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 58,
+			"id" : "UGM_small::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 59,
+			"id" : "ViewGraphExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 60,
+			"id" : "VisualISAM2Example::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 61,
+			"id" : "VisualISAMExample::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 62,
+			"id" : "easyPoint2KalmanFilter::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 63,
+			"id" : "elaboratePoint2KalmanFilter::@714eac15f71a94114fdf"
+		},
+		{
+			"backtrace" : 67,
+			"id" : "schedulingExample::@c75ceaa1a88b0d882fcc"
+		},
+		{
+			"backtrace" : 68,
+			"id" : "schedulingQuals12::@c75ceaa1a88b0d882fcc"
+		},
+		{
+			"backtrace" : 69,
+			"id" : "schedulingQuals13::@c75ceaa1a88b0d882fcc"
+		},
+		{
+			"backtrace" : 73,
+			"id" : "ConcurrentCalibration::@2315e8b6133ac24b30b8"
+		},
+		{
+			"backtrace" : 74,
+			"id" : "ConcurrentFilteringAndSmoothingExample::@2315e8b6133ac24b30b8"
+		},
+		{
+			"backtrace" : 75,
+			"id" : "FixedLagSmootherExample::@2315e8b6133ac24b30b8"
+		},
+		{
+			"backtrace" : 76,
+			"id" : "GncPoseAveragingExample::@2315e8b6133ac24b30b8"
+		},
+		{
+			"backtrace" : 77,
+			"id" : "ISAM2_SmartFactorStereo_IMU::@2315e8b6133ac24b30b8"
+		},
+		{
+			"backtrace" : 78,
+			"id" : "IncrementalFixedLagSmootherExample::@2315e8b6133ac24b30b8"
+		},
+		{
+			"backtrace" : 79,
+			"id" : "SmartProjectionFactorExample::@2315e8b6133ac24b30b8"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "SmartRangeExample_plaza1::@2315e8b6133ac24b30b8"
+		},
+		{
+			"backtrace" : 81,
+			"id" : "SmartRangeExample_plaza2::@2315e8b6133ac24b30b8"
+		},
+		{
+			"backtrace" : 82,
+			"id" : "SmartStereoProjectionFactorExample::@2315e8b6133ac24b30b8"
+		},
+		{
+			"backtrace" : 83,
+			"id" : "TimeOfArrivalExample::@2315e8b6133ac24b30b8"
+		}
+	],
+	"id" : "examples::@6890427a1f51a3e7e1df",
+	"name" : "examples",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

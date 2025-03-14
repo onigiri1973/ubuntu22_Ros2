@@ -1,0 +1,78 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/inference/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/inference",
+			"paths" : 
+			[
+				"gtsam/inference/BayesNet-inst.h",
+				"gtsam/inference/BayesNet.h",
+				"gtsam/inference/BayesTree-inst.h",
+				"gtsam/inference/BayesTree.h",
+				"gtsam/inference/BayesTreeCliqueBase-inst.h",
+				"gtsam/inference/BayesTreeCliqueBase.h",
+				"gtsam/inference/ClusterTree-inst.h",
+				"gtsam/inference/ClusterTree.h",
+				"gtsam/inference/Conditional-inst.h",
+				"gtsam/inference/Conditional.h",
+				"gtsam/inference/DotWriter.h",
+				"gtsam/inference/EdgeKey.h",
+				"gtsam/inference/EliminateableFactorGraph-inst.h",
+				"gtsam/inference/EliminateableFactorGraph.h",
+				"gtsam/inference/EliminationTree-inst.h",
+				"gtsam/inference/EliminationTree.h",
+				"gtsam/inference/Factor.h",
+				"gtsam/inference/FactorGraph-inst.h",
+				"gtsam/inference/FactorGraph.h",
+				"gtsam/inference/ISAM-inst.h",
+				"gtsam/inference/ISAM.h",
+				"gtsam/inference/JunctionTree-inst.h",
+				"gtsam/inference/JunctionTree.h",
+				"gtsam/inference/Key.h",
+				"gtsam/inference/LabeledSymbol.h",
+				"gtsam/inference/MetisIndex-inl.h",
+				"gtsam/inference/MetisIndex.h",
+				"gtsam/inference/Ordering.h",
+				"gtsam/inference/Symbol.h",
+				"gtsam/inference/VariableIndex-inl.h",
+				"gtsam/inference/VariableIndex.h",
+				"gtsam/inference/VariableSlots.h",
+				"gtsam/inference/graph-inl.h",
+				"gtsam/inference/graph.h",
+				"gtsam/inference/inference-inst.h",
+				"gtsam/inference/inferenceExceptions.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/inference",
+		"source" : "gtsam/inference"
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/linear/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/linear",
+			"paths" : 
+			[
+				"gtsam/linear/AcceleratedPowerMethod.h",
+				"gtsam/linear/BinaryJacobianFactor.h",
+				"gtsam/linear/ConjugateGradientSolver.h",
+				"gtsam/linear/Errors.h",
+				"gtsam/linear/GaussianBayesNet.h",
+				"gtsam/linear/GaussianBayesTree-inl.h",
+				"gtsam/linear/GaussianBayesTree.h",
+				"gtsam/linear/GaussianConditional-inl.h",
+				"gtsam/linear/GaussianConditional.h",
+				"gtsam/linear/GaussianDensity.h",
+				"gtsam/linear/GaussianEliminationTree.h",
+				"gtsam/linear/GaussianFactor.h",
+				"gtsam/linear/GaussianFactorGraph.h",
+				"gtsam/linear/GaussianISAM.h",
+				"gtsam/linear/GaussianJunctionTree.h",
+				"gtsam/linear/HessianFactor-inl.h",
+				"gtsam/linear/HessianFactor.h",
+				"gtsam/linear/IterativeSolver.h",
+				"gtsam/linear/JacobianFactor-inl.h",
+				"gtsam/linear/JacobianFactor.h",
+				"gtsam/linear/KalmanFilter.h",
+				"gtsam/linear/LossFunctions.h",
+				"gtsam/linear/NoiseModel.h",
+				"gtsam/linear/PCGSolver.h",
+				"gtsam/linear/PowerMethod.h",
+				"gtsam/linear/Preconditioner.h",
+				"gtsam/linear/RegularHessianFactor.h",
+				"gtsam/linear/RegularJacobianFactor.h",
+				"gtsam/linear/Sampler.h",
+				"gtsam/linear/Scatter.h",
+				"gtsam/linear/SparseEigen.h",
+				"gtsam/linear/SubgraphBuilder.h",
+				"gtsam/linear/SubgraphPreconditioner.h",
+				"gtsam/linear/SubgraphSolver.h",
+				"gtsam/linear/VectorValues.h",
+				"gtsam/linear/iterative-inl.h",
+				"gtsam/linear/iterative.h",
+				"gtsam/linear/linearAlgorithms-inst.h",
+				"gtsam/linear/linearExceptions.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/linear",
+		"source" : "gtsam/linear"
+	}
+}

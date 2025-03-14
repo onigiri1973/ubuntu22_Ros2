@@ -1,0 +1,1 @@
+/home/aliare/livox_ros2_ws/src/livox_ros2_driver/livox_ros2_driver/launch/livox_hub_launch.py

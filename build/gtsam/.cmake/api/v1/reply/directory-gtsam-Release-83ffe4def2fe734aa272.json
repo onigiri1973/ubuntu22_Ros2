@@ -1,0 +1,94 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 204,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam",
+			"paths" : 
+			[
+				"gtsam/global_includes.h",
+				"gtsam/precompiled_header.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam",
+			"paths" : 
+			[
+				"/home/aliare/livox_ros2_ws/build/gtsam/gtsam/config.h",
+				"/home/aliare/livox_ros2_ws/build/gtsam/gtsam/dllexport.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"gtsam/libgtsam.so.4.3a0",
+				"gtsam/libgtsam.so.4"
+			],
+			"targetId" : "gtsam::@bad977bbbe6ede080c3c",
+			"targetIndex" : 166,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"gtsam/libgtsam.so"
+			],
+			"targetId" : "gtsam::@bad977bbbe6ede080c3c",
+			"targetIndex" : 166,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam",
+		"source" : "gtsam"
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/hybrid/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/hybrid",
+			"paths" : 
+			[
+				"gtsam/hybrid/HybridBayesNet.h",
+				"gtsam/hybrid/HybridBayesTree.h",
+				"gtsam/hybrid/HybridConditional.h",
+				"gtsam/hybrid/HybridEliminationTree.h",
+				"gtsam/hybrid/HybridFactor.h",
+				"gtsam/hybrid/HybridFactorGraph.h",
+				"gtsam/hybrid/HybridGaussianConditional.h",
+				"gtsam/hybrid/HybridGaussianFactor.h",
+				"gtsam/hybrid/HybridGaussianFactorGraph.h",
+				"gtsam/hybrid/HybridGaussianISAM.h",
+				"gtsam/hybrid/HybridGaussianProductFactor.h",
+				"gtsam/hybrid/HybridJunctionTree.h",
+				"gtsam/hybrid/HybridNonlinearFactor.h",
+				"gtsam/hybrid/HybridNonlinearFactorGraph.h",
+				"gtsam/hybrid/HybridNonlinearISAM.h",
+				"gtsam/hybrid/HybridSmoother.h",
+				"gtsam/hybrid/HybridValues.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/hybrid",
+		"source" : "gtsam/hybrid"
+	}
+}

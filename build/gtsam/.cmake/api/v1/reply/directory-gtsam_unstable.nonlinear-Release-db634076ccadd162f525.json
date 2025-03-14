@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam_unstable/nonlinear/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam_unstable/nonlinear",
+			"paths" : 
+			[
+				"gtsam_unstable/nonlinear/BatchFixedLagSmoother.h",
+				"gtsam_unstable/nonlinear/BayesTreeMarginalizationHelper.h",
+				"gtsam_unstable/nonlinear/ConcurrentBatchFilter.h",
+				"gtsam_unstable/nonlinear/ConcurrentBatchSmoother.h",
+				"gtsam_unstable/nonlinear/ConcurrentFilteringAndSmoothing.h",
+				"gtsam_unstable/nonlinear/ConcurrentIncrementalFilter.h",
+				"gtsam_unstable/nonlinear/ConcurrentIncrementalSmoother.h",
+				"gtsam_unstable/nonlinear/FixedLagSmoother.h",
+				"gtsam_unstable/nonlinear/IncrementalFixedLagSmoother.h",
+				"gtsam_unstable/nonlinear/LinearizedFactor.h",
+				"gtsam_unstable/nonlinear/NonlinearClusterTree.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam_unstable/nonlinear",
+		"source" : "gtsam_unstable/nonlinear"
+	}
+}

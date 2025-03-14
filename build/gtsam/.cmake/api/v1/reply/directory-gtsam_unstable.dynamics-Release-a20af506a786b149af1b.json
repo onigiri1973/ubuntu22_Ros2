@@ -1,0 +1,50 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam_unstable/dynamics/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam_unstable/dynamics",
+			"paths" : 
+			[
+				"gtsam_unstable/dynamics/DynamicsPriors.h",
+				"gtsam_unstable/dynamics/FullIMUFactor.h",
+				"gtsam_unstable/dynamics/IMUFactor.h",
+				"gtsam_unstable/dynamics/Pendulum.h",
+				"gtsam_unstable/dynamics/PoseRTV.h",
+				"gtsam_unstable/dynamics/SimpleHelicopter.h",
+				"gtsam_unstable/dynamics/VelocityConstraint.h",
+				"gtsam_unstable/dynamics/VelocityConstraint3.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam_unstable/dynamics",
+		"source" : "gtsam_unstable/dynamics"
+	}
+}

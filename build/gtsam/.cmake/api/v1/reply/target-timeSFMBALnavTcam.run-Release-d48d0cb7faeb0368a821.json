@@ -1,0 +1,88 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"gtsamAddExesGlob_impl",
+			"gtsamAddTimingGlob"
+		],
+		"files" : 
+		[
+			"cmake/GtsamTesting.cmake",
+			"timing/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 304,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "timeSFMBALnavTcam::@fdfa0d39ba135ad398b9"
+		}
+	],
+	"id" : "timeSFMBALnavTcam.run::@fdfa0d39ba135ad398b9",
+	"name" : "timeSFMBALnavTcam.run",
+	"paths" : 
+	{
+		"build" : "timing",
+		"source" : "timing"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/aliare/livox_ros2_ws/build/gtsam/timing/CMakeFiles/timeSFMBALnavTcam.run",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/aliare/livox_ros2_ws/build/gtsam/timing/CMakeFiles/timeSFMBALnavTcam.run.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

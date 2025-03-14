@@ -1,0 +1,47 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/constrained/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/constrained",
+			"paths" : 
+			[
+				"gtsam/constrained/InequalityPenaltyFunction.h",
+				"gtsam/constrained/NonlinearConstraint.h",
+				"gtsam/constrained/NonlinearEqualityConstraint-inl.h",
+				"gtsam/constrained/NonlinearEqualityConstraint.h",
+				"gtsam/constrained/NonlinearInequalityConstraint.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/constrained",
+		"source" : "gtsam/constrained"
+	}
+}

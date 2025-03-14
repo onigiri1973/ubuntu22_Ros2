@@ -1,0 +1,51 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/aliare/livox_ros2_ws/install/gtsam/lib/cmake/GTSAMCMakeTools",
+			"paths" : 
+			[
+				"cmake/GTSAMCMakeToolsConfig.cmake",
+				"cmake/Config.cmake.in",
+				"cmake/dllexport.h.in",
+				"cmake/GtsamBuildTypes.cmake",
+				"cmake/GtsamMakeConfigFile.cmake",
+				"cmake/GtsamTesting.cmake",
+				"cmake/GtsamPrinting.cmake",
+				"cmake/FindNumPy.cmake",
+				"cmake/README.html"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cmake",
+		"source" : "cmake"
+	}
+}

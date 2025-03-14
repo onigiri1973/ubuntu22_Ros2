@@ -1,0 +1,42 @@
+[0.023s] Invoking command in '/home/aliare/livox_ros2_ws/build/livox_mapping': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_mapping
+[0.178s] -- The C compiler identification is GNU 11.4.0
+[0.322s] -- The CXX compiler identification is GNU 11.4.0
+[0.346s] -- Detecting C compiler ABI info
+[0.539s] -- Detecting C compiler ABI info - done
+[0.567s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.567s] -- Detecting C compile features
+[0.569s] -- Detecting C compile features - done
+[0.577s] -- Detecting CXX compiler ABI info
+[0.819s] -- Detecting CXX compiler ABI info - done
+[0.846s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.847s] -- Detecting CXX compile features
+[0.847s] -- Detecting CXX compile features - done
+[0.863s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.310s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.472s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.748s] -- Configuring done
+[1.755s] -- Generating done
+[1.761s] -- Build files have been written to: /home/aliare/livox_ros2_ws/build/livox_mapping
+[1.770s] Invoked command in '/home/aliare/livox_ros2_ws/build/livox_mapping' returned '0': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake /home/aliare/livox_ros2_ws/src/livox_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/livox_mapping
+[1.771s] Invoking command in '/home/aliare/livox_ros2_ws/build/livox_mapping': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_mapping -- -j16 -l16
+[1.890s] Invoked command in '/home/aliare/livox_ros2_ws/build/livox_mapping' returned '0': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake --build /home/aliare/livox_ros2_ws/build/livox_mapping -- -j16 -l16
+[1.895s] Invoking command in '/home/aliare/livox_ros2_ws/build/livox_mapping': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_mapping
+[1.915s] -- Install configuration: ""
+[1.916s] -- Execute custom install script
+[1.917s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping//launch/livox_mapping.launch.py
+[1.945s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/ament_index/resource_index/package_run_dependencies/livox_mapping
+[1.971s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/ament_index/resource_index/parent_prefix_path/livox_mapping
+[2.002s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/ament_prefix_path.sh
+[2.026s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/ament_prefix_path.dsv
+[2.053s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/path.sh
+[2.079s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/environment/path.dsv
+[2.102s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.bash
+[2.126s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.sh
+[2.153s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.zsh
+[2.177s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/local_setup.dsv
+[2.206s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.dsv
+[2.231s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/ament_index/resource_index/packages/livox_mapping
+[2.256s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/cmake/livox_mappingConfig.cmake
+[2.290s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/cmake/livox_mappingConfig-version.cmake
+[2.314s] -- Symlinking: /home/aliare/livox_ros2_ws/install/livox_mapping/share/livox_mapping/package.xml
+[2.346s] Invoked command in '/home/aliare/livox_ros2_ws/build/livox_mapping' returned '0': AMENT_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aliare/livox_ros2_ws/install/lio_livox_ros2:/opt/ros/humble /usr/bin/cmake --install /home/aliare/livox_ros2_ws/build/livox_mapping

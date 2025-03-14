@@ -1,0 +1,65 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"gtsam/discrete/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/gtsam/discrete",
+			"paths" : 
+			[
+				"gtsam/discrete/AlgebraicDecisionTree.h",
+				"gtsam/discrete/Assignment.h",
+				"gtsam/discrete/DecisionTree-inl.h",
+				"gtsam/discrete/DecisionTree.h",
+				"gtsam/discrete/DecisionTreeFactor.h",
+				"gtsam/discrete/DiscreteBayesNet.h",
+				"gtsam/discrete/DiscreteBayesTree.h",
+				"gtsam/discrete/DiscreteConditional.h",
+				"gtsam/discrete/DiscreteDistribution.h",
+				"gtsam/discrete/DiscreteEliminationTree.h",
+				"gtsam/discrete/DiscreteFactor.h",
+				"gtsam/discrete/DiscreteFactorGraph.h",
+				"gtsam/discrete/DiscreteJunctionTree.h",
+				"gtsam/discrete/DiscreteKey.h",
+				"gtsam/discrete/DiscreteLookupDAG.h",
+				"gtsam/discrete/DiscreteMarginals.h",
+				"gtsam/discrete/DiscreteSearch.h",
+				"gtsam/discrete/DiscreteValues.h",
+				"gtsam/discrete/Ring.h",
+				"gtsam/discrete/Signature.h",
+				"gtsam/discrete/SignatureParser.h",
+				"gtsam/discrete/TableDistribution.h",
+				"gtsam/discrete/TableFactor.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "gtsam/discrete",
+		"source" : "gtsam/discrete"
+	}
+}

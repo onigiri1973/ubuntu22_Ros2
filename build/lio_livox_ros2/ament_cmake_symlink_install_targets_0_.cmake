@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/aliare/livox_ros2_ws/build/lio_livox_ros2/scan_registration" "/home/aliare/livox_ros2_ws/build/lio_livox_ros2/pose_estimation" "TARGETS" "scan_registration" "pose_estimation" "DESTINATION" "lib/lio_livox_ros2")

@@ -1,0 +1,276 @@
+[0.071s] DEBUG:colcon:Command line arguments: ['/home/aliare/.local/bin/colcon', 'build', '--packages-select', 'imu_tools']
+[0.071s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['imu_tools'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7984f72d9810>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7984f73bee00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7984f73bee00>>)
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.149s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aliare/livox_ros2_ws'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gtsam) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gtsam' with type 'ros.cmake' and name 'gtsam'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_complementary_filter' with type 'ros.catkin' and name 'imu_complementary_filter'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_filter_madgwick' with type 'ros.catkin' and name 'imu_filter_madgwick'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_tools' with type 'ros.catkin' and name 'imu_tools'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/rviz_imu_plugin' with type 'ros.catkin' and name 'rviz_imu_plugin'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/lio_livox_ros2) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lio_livox_ros2' with type 'ros.ament_cmake' and name 'lio_livox_ros2'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_mapping) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_mapping' with type 'ros.ament_cmake' and name 'livox_mapping'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/images) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_interfaces) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros2_driver/livox_interfaces' with type 'ros.ament_cmake' and name 'livox_interfaces'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_ros2_driver) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros2_driver/livox_ros2_driver' with type 'ros.ament_cmake' and name 'livox_ros2_driver'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros2_driver/livox_sdk_vendor) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros2_driver/livox_sdk_vendor' with type 'ros.ament_cmake' and name 'livox_sdk_vendor'
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.179s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gtsam' in 'src/gtsam'
+[0.179s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'imu_complementary_filter' in 'src/imu_tools/imu_complementary_filter'
+[0.179s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'imu_filter_madgwick' in 'src/imu_tools/imu_filter_madgwick'
+[0.179s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lio_livox_ros2' in 'src/lio_livox_ros2'
+[0.179s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_interfaces' in 'src/livox_ros2_driver/livox_interfaces'
+[0.179s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_sdk_vendor' in 'src/livox_ros2_driver/livox_sdk_vendor'
+[0.179s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rviz_imu_plugin' in 'src/imu_tools/rviz_imu_plugin'
+[0.179s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_mapping' in 'src/livox_mapping'
+[0.179s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_ros2_driver' in 'src/livox_ros2_driver/livox_ros2_driver'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'imu_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aliare/livox_ros2_ws/build/imu_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aliare/livox_ros2_ws/install/imu_tools', 'merge_install': False, 'path': '/home/aliare/livox_ros2_ws/src/imu_tools/imu_tools', 'symlink_install': False, 'test_result_base': None}
+[0.179s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.180s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/aliare/livox_ros2_ws/src/imu_tools/imu_tools' with build type 'catkin'
+[0.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aliare/livox_ros2_ws/src/imu_tools/imu_tools'
+[0.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.183s] WARNING:colcon.colcon_core.shell:The following packages are in the workspace but haven't been built:
+- imu_complementary_filter
+- imu_filter_madgwick
+- rviz_imu_plugin
+They are being used from the following locations instead:
+- /opt/ros/humble
+- /opt/ros/humble
+- /opt/ros/humble
+To suppress this warning ignore these packages in the workspace:
+--packages-ignore imu_complementary_filter imu_filter_madgwick rviz_imu_plugin
+[0.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliare/livox_ros2_ws/build/imu_tools': /usr/bin/cmake /home/aliare/livox_ros2_ws/src/imu_tools/imu_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/imu_tools
+[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliare/livox_ros2_ws/build/imu_tools' returned '1': /usr/bin/cmake /home/aliare/livox_ros2_ws/src/imu_tools/imu_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/aliare/livox_ros2_ws/install/imu_tools
+[0.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_tools)
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/imu_tools' for CMake module files
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/imu_tools' for CMake config files
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/imu_tools/bin'
+[0.360s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/imu_tools/lib/pkgconfig/imu_tools.pc'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/imu_tools/lib/python3.10/site-packages'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/aliare/livox_ros2_ws/install/imu_tools/bin'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/imu_tools/share/imu_tools/package.ps1'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliare/livox_ros2_ws/install/imu_tools/share/imu_tools/package.dsv'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/imu_tools/share/imu_tools/package.sh'
+[0.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/imu_tools/share/imu_tools/package.bash'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliare/livox_ros2_ws/install/imu_tools/share/imu_tools/package.zsh'
+[0.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliare/livox_ros2_ws/install/imu_tools/share/colcon-core/packages/imu_tools)
+[0.373s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.373s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.373s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.374s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.376s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.376s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.376s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.385s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.385s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliare/livox_ros2_ws/install/local_setup.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aliare/livox_ros2_ws/install/_local_setup_util_ps1.py'
+[0.387s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliare/livox_ros2_ws/install/setup.ps1'
+[0.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliare/livox_ros2_ws/install/local_setup.sh'
+[0.387s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aliare/livox_ros2_ws/install/_local_setup_util_sh.py'
+[0.388s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliare/livox_ros2_ws/install/setup.sh'
+[0.388s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliare/livox_ros2_ws/install/local_setup.bash'
+[0.389s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliare/livox_ros2_ws/install/setup.bash'
+[0.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliare/livox_ros2_ws/install/local_setup.zsh'
+[0.389s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliare/livox_ros2_ws/install/setup.zsh'
